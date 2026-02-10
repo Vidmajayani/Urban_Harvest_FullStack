@@ -176,18 +176,6 @@ app.get('/api/health', (req, res) => {
     });
 });
 
-// Database Seeding Endpoint (Temporary)
-
-app.get('/api/seed', async (req, res) => {
-    try {
-        await initializeSchema();
-        await seedDatabase();
-        res.json({ message: 'Database seeded successfully!' });
-    } catch (error) {
-        res.status(500).json({ error: 'Seeding failed', details: error.message });
-    }
-});
-
 // Root endpoint
 app.get('/', (req, res) => {
     res.json({
