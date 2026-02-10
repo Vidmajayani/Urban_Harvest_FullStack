@@ -30,6 +30,7 @@ async function initializeDatabase() {
         // First, connect without specifying a database
         const tempConnection = await mysql.createConnection({
             host: DB_CONFIG.host,
+            port: DB_CONFIG.port,
             user: DB_CONFIG.user,
             password: DB_CONFIG.password
         });
