@@ -1,0 +1,207 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+  /* Card Hover Effect */
+  .card-hover {
+    @apply transition-transform hover:scale-105 hover:shadow-lg;
+  }
+
+  /* Primary Button - Eco Green */
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 bg-ecoGreen text-white px-6 py-2 rounded-lg font-bold hover:bg-ecoDark transition-colors duration-300;
+  }
+
+  /* Secondary Button - Amber Gradient */
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 bg-gradient-to-r from-ecoYellow to-ecoYellowLight text-white px-6 py-2 rounded-lg font-bold hover:from-ecoYellowLight hover:to-ecoYellow transition-all duration-300 shadow-md hover:shadow-lg;
+  }
+
+  /* Standard Section Padding */
+  .section-padding {
+    @apply py-6 sm:py-8 md:py-12;
+  }
+
+  /* Heading Gradient Text */
+  .text-gradient {
+    @apply text-transparent bg-clip-text bg-gradient-to-r from-ecoGreen to-ecoOrange;
+  }
+
+  /* Filter Button Base Styles */
+  .filter-btn-base {
+    @apply px-4 fold:px-5 sm:px-7 py-2 fold:py-2.5 sm:py-3 rounded-full font-bold transition-all duration-300 text-[11px] fold:text-sm sm:text-base flex items-center gap-1.5 fold:gap-2 sm:gap-2.5 border-2 shadow-md hover:shadow-lg;
+  }
+
+  /* Filter Button - Green Theme Active */
+  .filter-btn-green-active {
+    @apply bg-gradient-to-r from-ecoGreen to-green-600 text-white shadow-xl shadow-ecoGreen/30 scale-105 border-ecoGreen ring-2 ring-ecoGreen/20;
+  }
+
+  /* Filter Button - Green Theme Inactive */
+  .filter-btn-green-inactive {
+    @apply bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-200 hover:bg-gradient-to-r hover:from-ecoLight hover:to-green-100 hover:text-gray-900 dark:hover:bg-gradient-to-r dark:hover:from-ecoLight dark:hover:to-green-100 dark:hover:text-gray-900 border-gray-200 dark:border-gray-600 hover:border-ecoGreen dark:hover:border-green-500;
+  }
+
+  /* Filter Button - Orange Theme Active */
+  .filter-btn-orange-active {
+    @apply bg-gradient-to-r from-ecoOrange to-orange-600 text-white shadow-xl shadow-ecoOrange/30 scale-105 border-ecoOrange ring-2 ring-ecoOrange/20;
+  }
+
+  /* Filter Button - Orange Theme Inactive */
+  .filter-btn-orange-inactive {
+    @apply bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-200 hover:bg-gradient-to-r hover:from-orange-100 hover:to-orange-200 hover:text-gray-900 dark:hover:bg-gradient-to-r dark:hover:from-orange-100 dark:hover:to-orange-200 dark:hover:text-gray-900 border-gray-200 dark:border-gray-600 hover:border-ecoOrange dark:hover:border-orange-500;
+  }
+
+  /* Filter Button - Yellow Theme Active */
+  .filter-btn-yellow-active {
+    @apply bg-gradient-to-r from-ecoYellow to-yellow-500 text-white shadow-xl shadow-ecoYellow/30 scale-105 border-ecoYellow ring-2 ring-ecoYellow/20;
+  }
+
+  /* Filter Button - Yellow Theme Inactive */
+  .filter-btn-yellow-inactive {
+    @apply bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-200 hover:bg-gradient-to-r hover:from-amber-100 hover:to-amber-200 hover:text-gray-900 dark:hover:bg-gradient-to-r dark:hover:from-amber-100 dark:hover:to-amber-200 dark:hover:text-gray-900 border-gray-200 dark:border-gray-600 hover:border-ecoYellow dark:hover:border-amber-600;
+  }
+
+  /* Filter Button - Purple Theme Active */
+  .filter-btn-purple-active {
+    @apply bg-gradient-to-r from-ecoPurple to-purple-600 text-white shadow-xl shadow-ecoPurple/30 scale-105 border-ecoPurple ring-2 ring-ecoPurple/20;
+  }
+
+  /* Filter Button - Purple Theme Inactive */
+  .filter-btn-purple-inactive {
+    @apply bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-200 hover:bg-gradient-to-r hover:from-purple-100 hover:to-purple-200 hover:text-gray-900 dark:hover:bg-gradient-to-r dark:hover:from-purple-100 dark:hover:to-purple-200 dark:hover:text-gray-900 border-gray-200 dark:border-gray-600 hover:border-ecoPurple dark:hover:border-purple-500;
+  }
+
+  /* Loading Spinner */
+  .loading-spinner {
+    @apply w-12 h-12 border-4 border-gray-200 border-t-ecoGreen rounded-full animate-spin;
+  }
+}
+
+/* Google Translate Custom Styling - Aggressive Cleanup */
+#google_translate_element,
+#google_translate_element * {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+
+.goog-te-gadget,
+.goog-te-gadget *,
+.goog-te-banner-frame,
+.goog-te-banner-frame *,
+.goog-te-menu-value,
+.goog-te-menu2,
+.goog-te-balloon-frame {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+/* Prevent Google from pushing the page down */
+body {
+  top: 0 !important;
+  position: static !important;
+}
+
+html {
+  padding-top: 0 !important;
+  top: 0 !important;
+}
+
+/* Hide the annoying "Original Text" tooltip on hover */
+#goog-gt-tt,
+.goog-tooltip,
+.goog-tooltip:hover {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+}
+
+/* Hide Google's iframe banner specifically */
+iframe.goog-te-banner-frame {
+  display: none !important;
+}
+
+.skiptranslate {
+  display: none !important;
+}
+
+/* Notification Progress Bar Animation */
+.notification-progress {
+  animation: notification-shrink linear forwards;
+}
+
+@keyframes notification-shrink {
+  from {
+    width: 100%;
+  }
+
+  to {
+    width: 0%;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes scale-up {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes slide-in {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-out {
+  from {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  to {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.3s ease-out forwards;
+}
+
+.animate-scale-up {
+  animation: scale-up 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-slide-in {
+  animation: slide-in 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-slide-out {
+  animation: slide-out 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}

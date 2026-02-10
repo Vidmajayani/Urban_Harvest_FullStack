@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Sarah Thompson",
+        "role": "Urban Gardener",
+        "image": "/Images/workshops/page_turner.webp",
+        "rating": 5,
+        "text": "Urban Harvest Hub transformed my rooftop into a thriving garden! The workshops are incredibly informative, and the community support is amazing. I've learned so much about sustainable living."
+    },
+    {
+        "id": 2,
+        "name": "Michael Chen",
+        "role": "Eco Enthusiast",
+        "image": "/Images/workshops/potter_pat.jpeg",
+        "rating": 5,
+        "text": "The quality of products and the passion of this community are unmatched. I've attended 5 workshops so far and each one has been eye-opening. Highly recommend to anyone interested in sustainability!"
+    },
+    {
+        "id": 3,
+        "name": "Emma Rodriguez",
+        "role": "Community Member",
+        "image": "/Images/workshops/sarah_lee.jpg",
+        "rating": 5,
+        "text": "Finally found a platform that truly cares about the environment. The events bring our neighborhood together, and I've made lifelong friends who share my values. This is more than just a marketplace!"
+    }
+]

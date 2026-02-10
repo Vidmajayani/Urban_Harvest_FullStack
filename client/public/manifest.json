@@ -1,0 +1,30 @@
+{
+    "name": "Urban Harvest Hub",
+    "short_name": "Urban Harvest",
+    "description": "Eco-friendly community platform for sustainable living",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#10b981",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "/Images/logo.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/Images/logo.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "categories": [
+        "lifestyle",
+        "sustainability",
+        "shopping"
+    ],
+    "screenshots": []
+}
