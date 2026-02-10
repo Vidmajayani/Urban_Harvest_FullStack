@@ -31,8 +31,6 @@ const subscriptionReviewsRoutes = require('./routes/subscription-reviews');
 const favoritesRoutes = require('./routes/favorites');
 const notificationsRoutes = require('./routes/notifications');
 const cartRoutes = require('./routes/cart');
-const { initializeSchema } = require('./database/init-db');
-const { seedDatabase } = require('./database/mysql_seed');
 
 // Initialize Express app
 const app = express();
