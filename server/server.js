@@ -32,6 +32,7 @@ const favoritesRoutes = require('./routes/favorites');
 const notificationsRoutes = require('./routes/notifications');
 const cartRoutes = require('./routes/cart');
 const { initializeSchema } = require('./database/init-db');
+const { seedDatabase } = require('./database/mysql_seed');
 
 // Initialize Express app
 const app = express();
@@ -178,8 +179,6 @@ app.get('/api/health', (req, res) => {
 });
 
 // Database Seeding Endpoint (Temporary)
-const { seedDatabase } = require('./database/mysql_seed');
-const { initializeSchema } = require('./database/init-db');
 
 app.get('/api/seed', async (req, res) => {
     try {
