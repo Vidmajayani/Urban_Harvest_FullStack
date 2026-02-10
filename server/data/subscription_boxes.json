@@ -1,0 +1,864 @@
+[
+  {
+    "box_id": 1,
+    "name": "Seasonal Harvest Box",
+    "description": "Experience the best of each season with our carefully curated Seasonal Harvest Box. Each month, we handpick the freshest vegetables and fruits at their peak ripeness, sourced directly from local organic farms in Nuwara Eliya and Kandy. This box supports sustainable farming practices and reduces food miles, bringing you nature's bounty while protecting our environment. Perfect for families who want nutritious, farm-fresh produce without the hassle of grocery shopping.",
+    "price": 2500,
+    "frequency": "monthly",
+    "image_url": "/Images/subscription-boxes/seasonal-harvest.png",
+    "is_active": true,
+    "items": [
+      {
+        "item_name": "Fresh Organic Tomatoes",
+        "quantity": "1 kg",
+        "description": "Premium vine-ripened tomatoes from certified organic farms",
+        "display_order": 1
+      },
+      {
+        "item_name": "Leafy Greens Mix",
+        "quantity": "500g",
+        "description": "Spinach, lettuce, and kale blend, pre-washed and ready to use",
+        "display_order": 2
+      },
+      {
+        "item_name": "Seasonal Fresh Fruits",
+        "quantity": "2 kg",
+        "description": "Rotating selection of mangoes, papayas, bananas, or pineapples",
+        "display_order": 3
+      },
+      {
+        "item_name": "Root Vegetables Mix",
+        "quantity": "1 kg",
+        "description": "Carrots, beetroot, and radishes, perfect for curries and salads",
+        "display_order": 4
+      }
+    ]
+  },
+  {
+    "box_id": 2,
+    "name": "Organic Greens Box",
+    "description": "Elevate your health with our premium Organic Greens Box, delivered fresh every week. All items are certified organic, grown without synthetic pesticides or fertilizers, and harvested within 24 hours of delivery. This box is specially designed for health enthusiasts, fitness lovers, and families who want to incorporate more nutrient-dense greens into their diet. Support sustainable agriculture while nourishing your body with the purest greens available.",
+    "price": 1800,
+    "frequency": "weekly",
+    "image_url": "/Images/subscription-boxes/organic-greens.png",
+    "is_active": true,
+    "items": [
+      {
+        "item_name": "Organic Baby Spinach",
+        "quantity": "300g",
+        "description": "Tender leaves packed with iron and vitamins, perfect for smoothies",
+        "display_order": 1
+      },
+      {
+        "item_name": "Premium Kale Bundle",
+        "quantity": "200g",
+        "description": "Nutrient-dense superfood, ideal for kale chips and healthy stir-fries",
+        "display_order": 2
+      },
+      {
+        "item_name": "Fresh Herbs Collection",
+        "quantity": "100g",
+        "description": "Aromatic basil, cilantro, and mint for flavoring and teas",
+        "display_order": 3
+      },
+      {
+        "item_name": "Crisp Romaine Lettuce",
+        "quantity": "2 heads",
+        "description": "Crunchy lettuce perfect for Caesar salads and wraps",
+        "display_order": 4
+      }
+    ]
+  },
+  {
+    "box_id": 3,
+    "name": "Family Essentials Box",
+    "description": "Say goodbye to weekly grocery runs with our comprehensive Family Essentials Box. Designed for busy families, this box contains all the fresh produce you need for a week of healthy, home-cooked meals. We've carefully selected vegetables, fruits, and kitchen staples that cater to Sri Lankan cooking styles while ensuring nutritional balance. Each item is quality-checked and delivered fresh to your doorstep, saving you time and supporting local farmers.",
+    "price": 3500,
+    "frequency": "weekly",
+    "image_url": "/Images/subscription-boxes/family-essentials.png",
+    "is_active": true,
+    "items": [
+      {
+        "item_name": "Mixed Daily Vegetables",
+        "quantity": "3 kg",
+        "description": "Beans, carrots, cabbage, bell peppers, and brinjal for everyday cooking",
+        "display_order": 1
+      },
+      {
+        "item_name": "Seasonal Fruit Selection",
+        "quantity": "2 kg",
+        "description": "Bananas, apples, oranges, and grapes for healthy snacking",
+        "display_order": 2
+      },
+      {
+        "item_name": "Fresh Leafy Greens",
+        "quantity": "500g",
+        "description": "Spinach, gotukola, and mukunuwenna for traditional Sri Lankan dishes",
+        "display_order": 3
+      },
+      {
+        "item_name": "Kitchen Staples",
+        "quantity": "2 kg",
+        "description": "1 kg red onions + 1 kg potatoes, essential for daily cooking",
+        "display_order": 4
+      },
+      {
+        "item_name": "Premium Tomatoes",
+        "quantity": "1 kg",
+        "description": "Fresh, ripe tomatoes for sauces, curries, and salads",
+        "display_order": 5
+      }
+    ]
+  },
+  {
+    "box_id": 4,
+    "name": "Exotic Fruits Box",
+    "description": "Indulge in the finest exotic fruits from around the world with our Exotic Fruits Box, delivered every two weeks. Each fruit is carefully selected for optimal ripeness, imported through sustainable channels, and quality-checked before delivery. Perfect for fruit enthusiasts, health-conscious individuals, and those who love to try unique, hard-to-find fruits. Treat yourself to international flavors while supporting fair-trade practices.",
+    "price": 4200,
+    "frequency": "bi-weekly",
+    "image_url": "/Images/subscription-boxes/exotic-fruits.png",
+    "is_active": true,
+    "items": [
+      {
+        "item_name": "Fresh Dragon Fruit",
+        "quantity": "2 pieces",
+        "description": "Vibrant tropical fruit from Thailand, rich in antioxidants",
+        "display_order": 1
+      },
+      {
+        "item_name": "Premium Hass Avocados",
+        "quantity": "4 pieces",
+        "description": "Creamy avocados from Kenya, perfect for healthy fats",
+        "display_order": 2
+      },
+      {
+        "item_name": "Mixed Berries Pack",
+        "quantity": "500g",
+        "description": "Strawberries and blueberries, high in antioxidants",
+        "display_order": 3
+      },
+      {
+        "item_name": "Sweet Kiwi Fruits",
+        "quantity": "6 pieces",
+        "description": "Tangy-sweet kiwis from New Zealand, vitamin C boost",
+        "display_order": 4
+      },
+      {
+        "item_name": "Tropical Passion Fruit",
+        "quantity": "4 pieces",
+        "description": "Aromatic passion fruits for juices and desserts",
+        "display_order": 5
+      }
+    ]
+  },
+  {
+    "box_id": 5,
+    "name": "Vegetarian Protein Box",
+    "description": "Meet your protein needs with our specially curated Vegetarian Protein Box. Packed with plant-based protein sources, legumes, and nutrient-rich vegetables, this box is perfect for vegetarians, vegans, and anyone looking to reduce meat consumption. All items are sourced from sustainable farms that practice crop rotation and organic farming methods, ensuring both nutritional value and environmental responsibility.",
+    "price": 2200,
+    "frequency": "weekly",
+    "image_url": "/Images/subscription-boxes/vegetarian-protein.png",
+    "is_active": true,
+    "items": [
+      {
+        "item_name": "Mixed Lentils Pack",
+        "quantity": "1 kg",
+        "description": "Red lentils, green lentils, and chickpeas for protein-rich meals",
+        "display_order": 1
+      },
+      {
+        "item_name": "Fresh Tofu Block",
+        "quantity": "500g",
+        "description": "Locally-made organic tofu, excellent protein source",
+        "display_order": 2
+      },
+      {
+        "item_name": "Protein-Rich Greens",
+        "quantity": "400g",
+        "description": "Broccoli and spinach, high in plant-based protein",
+        "display_order": 3
+      },
+      {
+        "item_name": "Quinoa Pack",
+        "quantity": "500g",
+        "description": "Complete protein grain, perfect for salads and bowls",
+        "display_order": 4
+      },
+      {
+        "item_name": "Edamame Beans",
+        "quantity": "300g",
+        "description": "Fresh green soybeans, great for snacking and stir-fries",
+        "display_order": 5
+      }
+    ]
+  },
+  {
+    "box_id": 6,
+    "name": "Salad Lovers Box",
+    "description": "Create restaurant-quality salads at home with our Salad Lovers Box. This box contains a variety of crisp vegetables, fresh greens, and salad essentials delivered weekly. Perfect for health-conscious individuals, weight watchers, and anyone who loves fresh, crunchy salads. All vegetables are grown using sustainable practices and delivered at peak freshness to ensure maximum crunch and flavor.",
+    "price": 1600,
+    "frequency": "weekly",
+    "image_url": "/Images/subscription-boxes/salad-lovers.png",
+    "is_active": true,
+    "items": [
+      {
+        "item_name": "Mixed Salad Greens",
+        "quantity": "400g",
+        "description": "Lettuce, arugula, and mixed baby greens",
+        "display_order": 1
+      },
+      {
+        "item_name": "Cherry Tomatoes",
+        "quantity": "300g",
+        "description": "Sweet, bite-sized tomatoes perfect for salads",
+        "display_order": 2
+      },
+      {
+        "item_name": "Cucumber",
+        "quantity": "2 pieces",
+        "description": "Crisp, fresh cucumbers for hydration and crunch",
+        "display_order": 3
+      },
+      {
+        "item_name": "Bell Peppers Mix",
+        "quantity": "3 pieces",
+        "description": "Red, yellow, and green peppers for color and nutrition",
+        "display_order": 4
+      },
+      {
+        "item_name": "Fresh Carrots",
+        "quantity": "500g",
+        "description": "Crunchy carrots for grating or slicing",
+        "display_order": 5
+      }
+    ]
+  },
+  {
+    "box_id": 7,
+    "name": "Smoothie Essentials Box",
+    "description": "Kickstart your mornings with our Smoothie Essentials Box, packed with fresh fruits, greens, and superfoods perfect for creating nutritious smoothies. This box is designed for fitness enthusiasts, busy professionals, and health-conscious families who want quick, healthy breakfast options. All fruits are picked at peak ripeness and delivered fresh to ensure maximum flavor and nutritional value.",
+    "price": 2000,
+    "frequency": "weekly",
+    "image_url": "/Images/subscription-boxes/smoothie-essentials.png",
+    "is_active": true,
+    "items": [
+      {
+        "item_name": "Banana Bunch",
+        "quantity": "1 kg",
+        "description": "Ripe bananas for creamy smoothies and natural sweetness",
+        "display_order": 1
+      },
+      {
+        "item_name": "Fresh Spinach",
+        "quantity": "300g",
+        "description": "Mild-flavored greens for green smoothies",
+        "display_order": 2
+      },
+      {
+        "item_name": "Mixed Berries",
+        "quantity": "400g",
+        "description": "Strawberries and blueberries for antioxidant boost",
+        "display_order": 3
+      },
+      {
+        "item_name": "Papaya",
+        "quantity": "1 piece (~1 kg)",
+        "description": "Sweet papaya rich in digestive enzymes",
+        "display_order": 4
+      },
+      {
+        "item_name": "Chia Seeds Pack",
+        "quantity": "200g",
+        "description": "Superfood seeds for added protein and omega-3s",
+        "display_order": 5
+      }
+    ]
+  },
+  {
+    "box_id": 8,
+    "name": "Traditional Sri Lankan Box",
+    "description": "Embrace authentic Sri Lankan cuisine with our Traditional Sri Lankan Box, featuring vegetables and greens commonly used in local cooking. This box supports local farmers who grow traditional varieties using age-old sustainable farming methods. Perfect for families who love cooking authentic Sri Lankan curries, mallum, and traditional dishes. Each item is carefully selected to bring the taste of home to your kitchen.",
+    "price": 2800,
+    "frequency": "weekly",
+    "image_url": "/Images/subscription-boxes/traditional-srilanka.png",
+    "is_active": true,
+    "items": [
+      {
+        "item_name": "Gotukola",
+        "quantity": "300g",
+        "description": "Traditional leafy green for mallum and sambol",
+        "display_order": 1
+      },
+      {
+        "item_name": "Mukunuwenna",
+        "quantity": "300g",
+        "description": "Nutritious greens for traditional curries",
+        "display_order": 2
+      },
+      {
+        "item_name": "Drumsticks",
+        "quantity": "500g",
+        "description": "Fresh drumsticks for curries and soups",
+        "display_order": 3
+      },
+      {
+        "item_name": "Green Chilies",
+        "quantity": "200g",
+        "description": "Fresh chilies for authentic Sri Lankan heat",
+        "display_order": 4
+      },
+      {
+        "item_name": "Curry Leaves",
+        "quantity": "100g",
+        "description": "Aromatic leaves essential for Sri Lankan cooking",
+        "display_order": 5
+      },
+      {
+        "item_name": "Pumpkin",
+        "quantity": "1 kg",
+        "description": "Fresh pumpkin for curries and traditional desserts",
+        "display_order": 6
+      }
+    ]
+  },
+  {
+    "box_id": 9,
+    "name": "Baby & Toddler Box",
+    "description": "Nourish your little ones with our Baby & Toddler Box, featuring soft, easy-to-digest fruits and vegetables perfect for babies and toddlers. All items are certified organic, pesticide-free, and carefully selected for their nutritional value and safety. This box supports your child's healthy development while giving you peace of mind about what they're eating. Ideal for making homemade baby food and introducing solid foods.",
+    "price": 1900,
+    "frequency": "weekly",
+    "image_url": "/Images/subscription-boxes/baby-toddler.png",
+    "is_active": true,
+    "items": [
+      {
+        "item_name": "Sweet Potatoes",
+        "quantity": "1 kg",
+        "description": "Soft, naturally sweet, perfect for purees",
+        "display_order": 1
+      },
+      {
+        "item_name": "Ripe Avocados",
+        "quantity": "3 pieces",
+        "description": "Creamy, nutrient-dense fruit for healthy fats",
+        "display_order": 2
+      },
+      {
+        "item_name": "Bananas",
+        "quantity": "1 kg",
+        "description": "Soft, easy-to-digest fruit rich in potassium",
+        "display_order": 3
+      },
+      {
+        "item_name": "Carrots",
+        "quantity": "500g",
+        "description": "Sweet carrots for steaming and pureeing",
+        "display_order": 4
+      },
+      {
+        "item_name": "Apples",
+        "quantity": "1 kg",
+        "description": "Mild, sweet apples for applesauce and snacks",
+        "display_order": 5
+      }
+    ]
+  },
+  {
+    "box_id": 10,
+    "name": "Juice & Detox Box",
+    "description": "Cleanse and rejuvenate with our Juice & Detox Box, packed with fruits and vegetables perfect for juicing and detox programs. This box contains high-water-content produce rich in vitamins, minerals, and antioxidants to support your body's natural detoxification process. All items are organic and delivered fresh to maximize nutritional benefits. Perfect for juice cleanses, detox diets, or simply adding more fresh juices to your routine.",
+    "price": 2400,
+    "frequency": "weekly",
+    "image_url": "/Images/subscription-boxes/juice-detox.png",
+    "is_active": true,
+    "items": [
+      {
+        "item_name": "Beetroot",
+        "quantity": "1 kg",
+        "description": "Deep red beets for liver detox and blood purification",
+        "display_order": 1
+      },
+      {
+        "item_name": "Celery Stalks",
+        "quantity": "500g",
+        "description": "Hydrating celery for alkalizing juices",
+        "display_order": 2
+      },
+      {
+        "item_name": "Green Apples",
+        "quantity": "1 kg",
+        "description": "Tart apples for balancing sweet juices",
+        "display_order": 3
+      },
+      {
+        "item_name": "Ginger Root",
+        "quantity": "200g",
+        "description": "Fresh ginger for digestive support and flavor",
+        "display_order": 4
+      },
+      {
+        "item_name": "Lemons",
+        "quantity": "1 kg",
+        "description": "Fresh lemons for vitamin C and alkalizing properties",
+        "display_order": 5
+      },
+      {
+        "item_name": "Cucumbers",
+        "quantity": "3 pieces",
+        "description": "Hydrating cucumbers for refreshing juices",
+        "display_order": 6
+      }
+    ]
+  },
+  {
+    "box_id": 11,
+    "name": "Stir-Fry Essentials Box",
+    "description": "Create delicious stir-fries in minutes with our Stir-Fry Essentials Box. This box contains pre-cut vegetables and stir-fry staples that make weeknight cooking fast and easy. Perfect for busy professionals, students, and anyone who wants healthy, quick meals without compromising on nutrition. All vegetables are fresh, locally sourced, and ready to cook, saving you prep time while supporting sustainable farming.",
+    "price": 2100,
+    "frequency": "weekly",
+    "image_url": "/Images/subscription-boxes/stir-fry.png",
+    "is_active": true,
+    "items": [
+      {
+        "item_name": "Mixed Stir-Fry Vegetables",
+        "quantity": "2 kg",
+        "description": "Bell peppers, broccoli, carrots, and snap peas",
+        "display_order": 1
+      },
+      {
+        "item_name": "Fresh Mushrooms",
+        "quantity": "400g",
+        "description": "Sliced mushrooms for umami flavor",
+        "display_order": 2
+      },
+      {
+        "item_name": "Baby Corn",
+        "quantity": "300g",
+        "description": "Sweet, crunchy baby corn",
+        "display_order": 3
+      },
+      {
+        "item_name": "Spring Onions",
+        "quantity": "200g",
+        "description": "Fresh scallions for flavor and garnish",
+        "display_order": 4
+      },
+      {
+        "item_name": "Bean Sprouts",
+        "quantity": "300g",
+        "description": "Crunchy sprouts for texture and nutrition",
+        "display_order": 5
+      }
+    ]
+  },
+  {
+    "box_id": 12,
+    "name": "Soup & Stew Box",
+    "description": "Warm your soul with our Soup & Stew Box, featuring hearty vegetables perfect for making nutritious soups and stews. This box is ideal for cooler months, rainy days, or anyone who loves comforting, home-cooked meals. All vegetables are grown using sustainable practices and delivered fresh to ensure maximum flavor in your soups and stews. Support local farmers while nourishing your family with wholesome comfort food.",
+    "price": 2300,
+    "frequency": "weekly",
+    "image_url": "/Images/subscription-boxes/soup-stew.png",
+    "is_active": true,
+    "items": [
+      {
+        "item_name": "Soup Vegetables Mix",
+        "quantity": "2 kg",
+        "description": "Carrots, celery, onions, and leeks",
+        "display_order": 1
+      },
+      {
+        "item_name": "Pumpkin",
+        "quantity": "1.5 kg",
+        "description": "Sweet pumpkin for creamy soups",
+        "display_order": 2
+      },
+      {
+        "item_name": "Potatoes",
+        "quantity": "1 kg",
+        "description": "Starchy potatoes for hearty stews",
+        "display_order": 3
+      },
+      {
+        "item_name": "Fresh Tomatoes",
+        "quantity": "1 kg",
+        "description": "Ripe tomatoes for tomato-based soups",
+        "display_order": 4
+      },
+      {
+        "item_name": "Fresh Herbs Bundle",
+        "quantity": "100g",
+        "description": "Thyme, rosemary, and parsley for flavoring",
+        "display_order": 5
+      }
+    ]
+  },
+  {
+    "box_id": 13,
+    "name": "Breakfast Boost Box",
+    "description": "Start your day right with our Breakfast Boost Box, packed with fresh fruits and breakfast essentials. This box is perfect for families who prioritize a healthy breakfast and want convenient, nutritious options. All fruits are picked at peak ripeness and delivered fresh to ensure maximum flavor and nutrition. Support sustainable farming while giving your family the energy they need to start their day.",
+    "price": 1700,
+    "frequency": "weekly",
+    "image_url": "/Images/subscription-boxes/breakfast-boost.png",
+    "is_active": true,
+    "items": [
+      {
+        "item_name": "Mixed Breakfast Fruits",
+        "quantity": "2 kg",
+        "description": "Bananas, apples, oranges, and grapes",
+        "display_order": 1
+      },
+      {
+        "item_name": "Greek Yogurt",
+        "quantity": "500g",
+        "description": "Probiotic-rich yogurt for parfaits",
+        "display_order": 2
+      },
+      {
+        "item_name": "Granola Mix",
+        "quantity": "400g",
+        "description": "Homemade granola with nuts and seeds",
+        "display_order": 3
+      },
+      {
+        "item_name": "Fresh Berries",
+        "quantity": "300g",
+        "description": "Strawberries for topping yogurt and cereal",
+        "display_order": 4
+      },
+      {
+        "item_name": "Honey Jar",
+        "quantity": "250g",
+        "description": "Pure, local honey for natural sweetness",
+        "display_order": 5
+      }
+    ]
+  },
+  {
+    "box_id": 14,
+    "name": "Grilling & BBQ Box",
+    "description": "Fire up the grill with our Grilling & BBQ Box, featuring vegetables perfect for grilling and outdoor cooking. This box is ideal for weekend BBQs, family gatherings, and anyone who loves the smoky flavor of grilled vegetables. All items are fresh, locally sourced, and selected for their grilling potential. Support sustainable farming while enjoying delicious, healthy grilled meals with family and friends.",
+    "price": 2600,
+    "frequency": "bi-weekly",
+    "image_url": "/Images/subscription-boxes/grilling-bbq.png",
+    "is_active": true,
+    "items": [
+      {
+        "item_name": "Bell Peppers Mix",
+        "quantity": "1 kg",
+        "description": "Colorful peppers perfect for grilling",
+        "display_order": 1
+      },
+      {
+        "item_name": "Zucchini",
+        "quantity": "1 kg",
+        "description": "Fresh zucchini for grilling and skewers",
+        "display_order": 2
+      },
+      {
+        "item_name": "Corn on the Cob",
+        "quantity": "6 pieces",
+        "description": "Sweet corn for grilling",
+        "display_order": 3
+      },
+      {
+        "item_name": "Cherry Tomatoes",
+        "quantity": "500g",
+        "description": "Perfect for grilling on skewers",
+        "display_order": 4
+      },
+      {
+        "item_name": "Red Onions",
+        "quantity": "1 kg",
+        "description": "Sweet onions for caramelizing on the grill",
+        "display_order": 5
+      },
+      {
+        "item_name": "Portobello Mushrooms",
+        "quantity": "400g",
+        "description": "Meaty mushrooms for grilling",
+        "display_order": 6
+      }
+    ]
+  },
+  {
+    "box_id": 15,
+    "name": "Asian Cuisine Box",
+    "description": "Explore Asian flavors with our Asian Cuisine Box, featuring vegetables and ingredients commonly used in Chinese, Thai, and Japanese cooking. This box is perfect for home cooks who love experimenting with Asian recipes and want authentic ingredients. All items are fresh, high-quality, and sourced sustainably. Bring the flavors of Asia to your kitchen while supporting responsible farming practices.",
+    "price": 2500,
+    "frequency": "weekly",
+    "image_url": "/Images/subscription-boxes/asian-cuisine.png",
+    "is_active": true,
+    "items": [
+      {
+        "item_name": "Bok Choy",
+        "quantity": "500g",
+        "description": "Fresh Chinese cabbage for stir-fries",
+        "display_order": 1
+      },
+      {
+        "item_name": "Shiitake Mushrooms",
+        "quantity": "300g",
+        "description": "Umami-rich mushrooms for Asian dishes",
+        "display_order": 2
+      },
+      {
+        "item_name": "Snow Peas",
+        "quantity": "400g",
+        "description": "Crisp peas for stir-fries and noodles",
+        "display_order": 3
+      },
+      {
+        "item_name": "Fresh Ginger",
+        "quantity": "300g",
+        "description": "Essential for Asian cooking and flavor",
+        "display_order": 4
+      },
+      {
+        "item_name": "Napa Cabbage",
+        "quantity": "1 piece",
+        "description": "Perfect for kimchi and Asian slaws",
+        "display_order": 5
+      },
+      {
+        "item_name": "Thai Basil",
+        "quantity": "100g",
+        "description": "Aromatic herb for Thai curries and stir-fries",
+        "display_order": 6
+      }
+    ]
+  },
+  {
+    "box_id": 16,
+    "name": "Mediterranean Box",
+    "description": "Embrace the healthy Mediterranean lifestyle with our Mediterranean Box, featuring fresh vegetables, herbs, and ingredients central to Mediterranean cuisine. This box supports the heart-healthy Mediterranean diet, known for its health benefits and delicious flavors. All items are fresh, high-quality, and sourced sustainably. Perfect for creating authentic Mediterranean dishes while supporting responsible farming.",
+    "price": 3200,
+    "frequency": "bi-weekly",
+    "image_url": "/Images/subscription-boxes/mediterranean.png",
+    "is_active": true,
+    "items": [
+      {
+        "item_name": "Fresh Tomatoes",
+        "quantity": "1.5 kg",
+        "description": "Ripe tomatoes for salads and sauces",
+        "display_order": 1
+      },
+      {
+        "item_name": "Cucumbers",
+        "quantity": "1 kg",
+        "description": "Crisp cucumbers for Greek salads",
+        "display_order": 2
+      },
+      {
+        "item_name": "Bell Peppers",
+        "quantity": "1 kg",
+        "description": "Colorful peppers for roasting",
+        "display_order": 3
+      },
+      {
+        "item_name": "Fresh Herbs Mix",
+        "quantity": "200g",
+        "description": "Oregano, basil, and thyme",
+        "display_order": 4
+      },
+      {
+        "item_name": "Olives Pack",
+        "quantity": "300g",
+        "description": "Mixed olives for authentic flavor",
+        "display_order": 5
+      },
+      {
+        "item_name": "Feta Cheese",
+        "quantity": "400g",
+        "description": "Creamy feta for salads and dishes",
+        "display_order": 6
+      }
+    ]
+  },
+  {
+    "box_id": 17,
+    "name": "Kids' Favorites Box",
+    "description": "Make healthy eating fun with our Kids' Favorites Box, featuring colorful, kid-friendly fruits and vegetables that children actually enjoy. This box is designed to help parents introduce more fruits and veggies into their children's diet without the usual resistance. All items are organic, pesticide-free, and selected for their appeal to young taste buds. Support your child's health while making mealtime enjoyable.",
+    "price": 2000,
+    "frequency": "weekly",
+    "image_url": "/Images/subscription-boxes/kids-favorites.png",
+    "is_active": true,
+    "items": [
+      {
+        "item_name": "Baby Carrots",
+        "quantity": "500g",
+        "description": "Sweet, crunchy carrots perfect for snacking",
+        "display_order": 1
+      },
+      {
+        "item_name": "Cherry Tomatoes",
+        "quantity": "400g",
+        "description": "Bite-sized tomatoes kids love",
+        "display_order": 2
+      },
+      {
+        "item_name": "Strawberries",
+        "quantity": "500g",
+        "description": "Sweet berries for snacking and desserts",
+        "display_order": 3
+      },
+      {
+        "item_name": "Mini Cucumbers",
+        "quantity": "500g",
+        "description": "Crunchy cucumbers for dipping",
+        "display_order": 4
+      },
+      {
+        "item_name": "Sweet Corn",
+        "quantity": "4 cobs",
+        "description": "Sweet corn kids enjoy",
+        "display_order": 5
+      },
+      {
+        "item_name": "Watermelon Chunks",
+        "quantity": "1 kg",
+        "description": "Pre-cut watermelon for easy snacking",
+        "display_order": 6
+      }
+    ]
+  },
+  {
+    "box_id": 18,
+    "name": "Senior Wellness Box",
+    "description": "Support healthy aging with our Senior Wellness Box, featuring easy-to-digest, nutrient-dense fruits and vegetables perfect for seniors. This box is designed with the nutritional needs of older adults in mind, focusing on bone health, heart health, and digestive wellness. All items are soft, easy to prepare, and packed with essential vitamins and minerals. Show care for your elderly loved ones with fresh, healthy produce.",
+    "price": 2100,
+    "frequency": "weekly",
+    "image_url": "/Images/subscription-boxes/senior-wellness.png",
+    "is_active": true,
+    "items": [
+      {
+        "item_name": "Soft Bananas",
+        "quantity": "1 kg",
+        "description": "Easy to digest, rich in potassium for heart health",
+        "display_order": 1
+      },
+      {
+        "item_name": "Papaya",
+        "quantity": "1 piece",
+        "description": "Digestive enzyme-rich fruit for gut health",
+        "display_order": 2
+      },
+      {
+        "item_name": "Spinach",
+        "quantity": "500g",
+        "description": "Iron-rich greens for blood health",
+        "display_order": 3
+      },
+      {
+        "item_name": "Sweet Potatoes",
+        "quantity": "1 kg",
+        "description": "Soft, nutritious, easy to prepare",
+        "display_order": 4
+      },
+      {
+        "item_name": "Avocados",
+        "quantity": "3 pieces",
+        "description": "Healthy fats for brain and heart health",
+        "display_order": 5
+      },
+      {
+        "item_name": "Prunes Pack",
+        "quantity": "300g",
+        "description": "Natural digestive aid and bone health support",
+        "display_order": 6
+      }
+    ]
+  },
+  {
+    "box_id": 19,
+    "name": "Fitness Fuel Box",
+    "description": "Fuel your workouts with our Fitness Fuel Box, packed with high-protein, nutrient-dense foods perfect for active lifestyles. This box is designed for athletes, gym-goers, and fitness enthusiasts who need quality nutrition to support their training. All items are fresh, organic, and selected for their performance-enhancing properties. Support your fitness goals while supporting sustainable agriculture.",
+    "price": 2700,
+    "frequency": "weekly",
+    "image_url": "/Images/subscription-boxes/fitness-fuel.png",
+    "is_active": true,
+    "items": [
+      {
+        "item_name": "Protein-Rich Quinoa",
+        "quantity": "500g",
+        "description": "Complete protein grain for muscle recovery",
+        "display_order": 1
+      },
+      {
+        "item_name": "Fresh Spinach",
+        "quantity": "400g",
+        "description": "Iron-rich greens for energy and endurance",
+        "display_order": 2
+      },
+      {
+        "item_name": "Sweet Potatoes",
+        "quantity": "1 kg",
+        "description": "Complex carbs for sustained energy",
+        "display_order": 3
+      },
+      {
+        "item_name": "Bananas",
+        "quantity": "1 kg",
+        "description": "Quick energy and potassium for muscle function",
+        "display_order": 4
+      },
+      {
+        "item_name": "Greek Yogurt",
+        "quantity": "500g",
+        "description": "High-protein yogurt for recovery",
+        "display_order": 5
+      },
+      {
+        "item_name": "Mixed Nuts Pack",
+        "quantity": "300g",
+        "description": "Healthy fats and protein for snacking",
+        "display_order": 6
+      }
+    ]
+  },
+  {
+    "box_id": 20,
+    "name": "Zero-Waste Sustainability Box",
+    "description": "Make a positive environmental impact with our Zero-Waste Sustainability Box, featuring 'ugly' produce, surplus vegetables, and items that would otherwise go to waste. This box is perfect for environmentally conscious consumers who want to reduce food waste while enjoying fresh, nutritious produce at a great value. All items are perfectly edible but may have cosmetic imperfections. Support the fight against food waste while saving money and eating healthy.",
+    "price": 2900,
+    "frequency": "monthly",
+    "image_url": "/Images/subscription-boxes/zero-waste.png",
+    "is_active": true,
+    "items": [
+      {
+        "item_name": "Misshapen Vegetables Mix",
+        "quantity": "3 kg",
+        "description": "Perfectly fresh vegetables with cosmetic imperfections",
+        "display_order": 1
+      },
+      {
+        "item_name": "Surplus Fruits",
+        "quantity": "2 kg",
+        "description": "Seasonal fruits that are perfectly ripe but surplus",
+        "display_order": 2
+      },
+      {
+        "item_name": "Leafy Greens Bundle",
+        "quantity": "1 kg",
+        "description": "Fresh greens from sustainable farms",
+        "display_order": 3
+      },
+      {
+        "item_name": "Root Vegetables",
+        "quantity": "1.5 kg",
+        "description": "Carrots, beets, and potatoes with minor blemishes",
+        "display_order": 4
+      },
+      {
+        "item_name": "Tomatoes",
+        "quantity": "1 kg",
+        "description": "Perfectly ripe tomatoes in various sizes",
+        "display_order": 5
+      },
+      {
+        "item_name": "Reusable Produce Bags",
+        "quantity": "3 pieces",
+        "description": "Eco-friendly bags for future shopping",
+        "display_order": 6
+      }
+    ]
+  }
+]

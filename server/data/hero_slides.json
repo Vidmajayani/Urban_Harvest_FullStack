@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "image": "/Images/community_event.jpg",
+        "title": "Welcome to Urban Harvest Hub",
+        "subtitle": "The premier platform for eco-conscious communities. Showcase initiatives, manage workshops, and discover sustainable products all in one place.",
+        "ctaText": "Shop Products",
+        "ctaLink": "/products"
+    },
+    {
+        "id": 2,
+        "image": "/Images/hero_workshops.png",
+        "title": "Join Our Community Events",
+        "subtitle": "Connect with like-minded neighbors, participate in local cleanups, and make a tangible difference in your urban environment.",
+        "ctaText": "View Events",
+        "ctaLink": "/events"
+    },
+    {
+        "id": 3,
+        "image": "/Images/community_garden_workshop.jpeg",
+        "title": "Learn & Grow With Us",
+        "subtitle": "Expert-led workshops on urban gardening, sustainability, and eco-friendly living. Start your green journey today.",
+        "ctaText": "Find Workshops",
+        "ctaLink": "/workshops"
+    },
+    {
+        "id": 4,
+        "image": "/Images/home_hero.jpeg",
+        "title": "Farm to Table Freshness",
+        "subtitle": "Experience the taste of truly local food. Our urban farms provide organic, chemical-free produce directly to your community.",
+        "ctaText": "View Harvest",
+        "ctaLink": "/products"
+    },
+    {
+        "id": 5,
+        "image": "/Images/harvest_day_celebration.jpg",
+        "title": "Celebrate Community",
+        "subtitle": "Join our seasonal festivals and celebrate the joy of harvest. Music, food, and fun for the whole family.",
+        "ctaText": "Join the Fun",
+        "ctaLink": "/events"
+    }
+]

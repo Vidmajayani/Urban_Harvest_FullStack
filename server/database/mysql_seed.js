@@ -16,13 +16,13 @@ const bcrypt = require('bcryptjs');
 const { getPool, runQuery, getOne } = require('./db');
 
 // JSON file paths (adjust these to match your project structure)
-const EVENTS_JSON = path.join(__dirname, '../../client/src/data/events.json');
-const WORKSHOPS_JSON = path.join(__dirname, '../../client/src/data/workshops.json');
-const PRODUCTS_JSON = path.join(__dirname, '../../client/src/data/products.json');
-const FAQS_JSON = path.join(__dirname, '../../client/src/data/faqs.json');
-const TESTIMONIALS_JSON = path.join(__dirname, '../../client/src/data/testimonials.json');
-const HERO_SLIDES_JSON = path.join(__dirname, '../../client/src/data/hero_slides.json');
-const SUBSCRIPTION_BOXES_JSON = path.join(__dirname, '../../client/src/data/subscription_boxes.json');
+const EVENTS_JSON = path.join(__dirname, '../data/events.json');
+const WORKSHOPS_JSON = path.join(__dirname, '../data/workshops.json');
+const PRODUCTS_JSON = path.join(__dirname, '../data/products.json');
+const FAQS_JSON = path.join(__dirname, '../data/faqs.json');
+const TESTIMONIALS_JSON = path.join(__dirname, '../data/testimonials.json');
+const HERO_SLIDES_JSON = path.join(__dirname, '../data/hero_slides.json');
+const SUBSCRIPTION_BOXES_JSON = path.join(__dirname, '../data/subscription_boxes.json');
 
 // Helper function to read and parse JSON files
 function readJSONFile(filePath) {

@@ -1,0 +1,342 @@
+[
+  {
+    "id": 1,
+    "name": "Organic Apples",
+    "price": 299.99,
+    "unit": "kg",
+    "image": "/Images/products/organic_apples.jpeg",
+    "description": "Enjoy the crisp, refreshing taste of our premium organic apples, grown in local orchards without the use of harmful pesticides or synthetic fertilizers. Each apple is hand-picked at peak ripeness to ensure maximum flavor and nutrition. Perfect for a healthy snack, baking into pies, or adding a fresh crunch to your salads, these apples are a delicious way to support sustainable farming practices.",
+    "category": "Food",
+    "rating": 4.8,
+    "reviews": 124,
+    "details": {
+      "origin": "Nuwara Eliya, Sri Lanka",
+      "ingredients": "100% Organic Apples",
+      "nutritional_info": "Rich in Fiber, Vitamin C, and Antioxidants",
+      "sustainability_impact": "Grown using rainwater harvesting; Zero pesticide use"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Bamboo Toothbrush",
+    "price": 149.00,
+    "unit": "piece",
+    "image": "/Images/products/bamboo_toothbrush.jpeg",
+    "description": "Make a simple yet impactful switch to a plastic-free lifestyle with our biodegradable bamboo toothbrush. The handle is crafted from sustainably harvested bamboo, which is naturally antimicrobial and water-resistant. Featuring soft, BPA-free bristles that are gentle on your gums but tough on plaque, this toothbrush offers an eco-friendly alternative that keeps your smile bright and the planet clean.",
+    "category": "Lifestyle",
+    "rating": 4.5,
+    "reviews": 89,
+    "details": {
+      "materials": "Sustainably harvested bamboo handle, BPA-free nylon bristles",
+      "dimensions": "19cm length",
+      "care_instructions": "Store in a dry place after use; Replace every 3 months",
+      "sustainability_impact": "100% Biodegradable handle; Plastic-free packaging"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Heirloom Tomato Seeds",
+    "price": 199.00,
+    "unit": "pack",
+    "image": "/Images/products/heirloom_tomato_seeds.jpeg",
+    "description": "Start your own organic garden with our pack of 50 premium heirloom tomato seeds. These non-GMO seeds are selected for their exceptional flavor, vibrant colors, and resilience. Whether you're a seasoned gardener or a beginner, growing your own tomatoes connects you to the earth and provides a bountiful harvest of juicy, sun-ripened fruits that taste unlike anything you'd find in a supermarket.",
+    "category": "Gardening",
+    "rating": 4.9,
+    "reviews": 56,
+    "details": {
+      "origin": "Local Heritage Farms",
+      "contents": "50+ Seeds per pack",
+      "planting_guide": "Sow 1/4 inch deep; Full sun required; Germination 7-14 days",
+      "sustainability_impact": "Preserves genetic diversity; Non-GMO"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Reusable Tote Bag",
+    "price": 399.00,
+    "unit": "piece",
+    "image": "/Images/products/reusable_tote_bag.jpeg",
+    "description": "Say goodbye to single-use plastics with our durable and stylish reusable tote bag. Made from heavy-duty, 100% organic cotton canvas, this bag is designed to withstand heavy loads of groceries, books, or daily essentials. Its reinforced stitching and comfortable handles make it the perfect companion for your eco-conscious shopping trips, reducing waste one bag at a time.",
+    "category": "Lifestyle",
+    "rating": 4.7,
+    "reviews": 210,
+    "details": {
+      "materials": "100% Organic Cotton Canvas (GOTS Certified)",
+      "dimensions": "40cm x 35cm x 10cm",
+      "care_instructions": "Machine wash cold; Air dry",
+      "sustainability_impact": "Replaces 500+ plastic bags annually"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Organic Carrots",
+    "price": 89.99,
+    "unit": "kg",
+    "image": "/Images/products/organic_carrots.jpeg",
+    "description": "Experience the natural sweetness and vibrant crunch of our freshly harvested organic carrots. Grown in nutrient-rich soil without synthetic chemicals, these carrots are packed with beta-carotene and essential vitamins. Sold in a generous bunch, they are perfect for roasting, juicing, or enjoying raw as a wholesome snack that supports both your health and the environment.",
+    "category": "Food",
+    "rating": 4.6,
+    "reviews": 78,
+    "details": {
+      "origin": "Bandarawela, Sri Lanka",
+      "ingredients": "100% Organic Carrots",
+      "nutritional_info": "High in Vitamin A, Beta-Carotene, and Fiber",
+      "sustainability_impact": "Soil-regenerative farming practices used"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Garden Trowel",
+    "price": 599.00,
+    "unit": "piece",
+    "image": "/Images/products/garden_trowel.jpeg",
+    "description": "Dig, plant, and cultivate with ease using our high-quality garden trowel. Featuring a rust-resistant stainless steel head and an ergonomic, sustainably sourced wood handle, this tool is built to last. Its sharp blade cuts through soil effortlessly, making it an essential companion for planting bulbs, transplanting seedlings, and maintaining your beautiful garden beds.",
+    "category": "Gardening",
+    "rating": 4.8,
+    "reviews": 145,
+    "details": {
+      "materials": "Stainless Steel Head, FSC Certified Ash Wood Handle",
+      "dimensions": "30cm total length",
+      "care_instructions": "Wipe clean after use; Store in a dry place",
+      "sustainability_impact": "Built to last a lifetime; Plastic-free"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Raw Honey",
+    "price": 699.00,
+    "unit": "500g",
+    "image": "/Images/products/raw_honey.jpeg",
+    "description": "Indulge in the pure, golden goodness of our raw honey, harvested straight from local hives. Unprocessed and unpasteurized, it retains all its natural enzymes, antioxidants, and pollen, offering a distinct floral flavor that varies by season. Use it as a natural sweetener for tea, drizzle it over yogurt, or enjoy it by the spoonful for a boost of natural energy.",
+    "category": "Food",
+    "rating": 5.0,
+    "reviews": 312,
+    "details": {
+      "origin": "Ella, Sri Lanka",
+      "ingredients": "100% Raw Wildflower Honey",
+      "nutritional_info": "Natural Enzymes, Antioxidants, Prebiotics",
+      "sustainability_impact": "Supports local bee populations and pollination"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Stainless Steel Straws",
+    "price": 299.00,
+    "unit": "set",
+    "image": "/Images/products/stainless_steel_straws.jpeg",
+    "description": "Sip sustainably with our set of 4 premium stainless steel straws. These reusable straws are a durable and stylish alternative to single-use plastic, perfect for smoothies, iced coffee, and cocktails. The set includes a specialized cleaning brush and a travel pouch, making it easy to carry your eco-friendly habits with you wherever you go.",
+    "category": "Lifestyle",
+    "rating": 4.4,
+    "reviews": 67,
+    "details": {
+      "materials": "Food-grade 304 Stainless Steel",
+      "contents": "4 Straws (2 straight, 2 bent), 1 Cleaning Brush, 1 Pouch",
+      "care_instructions": "Dishwasher safe; Use brush for internal cleaning",
+      "sustainability_impact": "Eliminates need for thousands of plastic straws"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Organic Spinach",
+    "price": 119.99,
+    "unit": "kg",
+    "image": "/Images/products/organic_spinach.jpeg",
+    "description": "Boost your meals with our nutrient-packed organic spinach. Harvested fresh daily, these tender, dark green leaves are rich in iron, vitamins, and antioxidants. Grown without synthetic pesticides, our spinach offers a clean, earthy flavor that shines in salads, smoothies, sautés, and soups, making healthy eating both delicious and safe.",
+    "category": "Food",
+    "rating": 4.7,
+    "reviews": 92,
+    "details": {
+      "origin": "Nuwara Eliya, Sri Lanka",
+      "ingredients": "100% Organic Spinach Leaves",
+      "nutritional_info": "Rich in Iron, Vitamin K, A, and C",
+      "sustainability_impact": "Grown using organic compost; No chemical runoff"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Compost Bin",
+    "price": 1299.00,
+    "unit": "piece",
+    "image": "/Images/products/compost_bin.jpeg",
+    "description": "Transform your kitchen scraps into \"black gold\" for your garden with our sleek countertop compost bin. Designed to fit seamlessly into any kitchen, it features a charcoal filter to neutralize odors and a removable inner bucket for easy cleaning. It's the perfect first step towards a zero-waste home, allowing you to recycle organic waste effortlessly.",
+    "category": "Gardening",
+    "rating": 4.6,
+    "reviews": 180,
+    "details": {
+      "materials": "Powder-coated Steel, Activated Charcoal Filter",
+      "dimensions": "5L Capacity",
+      "care_instructions": "Hand wash inner bucket; Replace filter every 6 months",
+      "sustainability_impact": "Diverts food waste from landfills; Creates natural fertilizer"
+    }
+  },
+  {
+    "id": 11,
+    "name": "Beeswax Wraps",
+    "price": 799.00,
+    "unit": "set",
+    "image": "/Images/products/beeswax_wraps.jpeg",
+    "description": "Ditch plastic cling wrap for good with our reusable beeswax food wraps. Handcrafted from organic cotton infused with beeswax, jojoba oil, and tree resin, these wraps are pliable, breathable, and antibacterial. Use the warmth of your hands to mold them around bowls, cheese, fruit, or sandwiches to keep your food fresh naturally and sustainably.",
+    "category": "Lifestyle",
+    "rating": 4.8,
+    "reviews": 150,
+    "details": {
+      "materials": "Organic Cotton, Beeswax, Jojoba Oil, Tree Resin",
+      "contents": "Set of 3 (Small, Medium, Large)",
+      "care_instructions": "Wash with cool water and mild soap; Air dry; Avoid heat",
+      "sustainability_impact": "100% Compostable; Replaces plastic cling film"
+    }
+  },
+  {
+    "id": 12,
+    "name": "Organic Avocados",
+    "price": 149.99,
+    "unit": "kg",
+    "image": "/Images/products/organic_avocados.jpeg",
+    "description": "Savor the creamy, buttery texture of our perfectly ripe organic avocados. Rich in heart-healthy monounsaturated fats and essential nutrients, they are a versatile superfood for any meal. Whether smashed on toast, blended into smoothies, or sliced into salads, our avocados are grown with care to deliver superior taste and quality.",
+    "category": "Food",
+    "rating": 4.9,
+    "reviews": 230,
+    "details": {
+      "origin": "Kandy, Sri Lanka",
+      "ingredients": "100% Organic Avocados",
+      "nutritional_info": "High in Healthy Fats, Potassium, and Fiber",
+      "sustainability_impact": "Rain-fed cultivation methods"
+    }
+  },
+  {
+    "id": 13,
+    "name": "Gardening Gloves",
+    "price": 449.00,
+    "unit": "pair",
+    "image": "/Images/products/gardening_gloves.jpeg",
+    "description": "Protect your hands while you work the earth with our comfortable and durable gardening gloves. Made from breathable, eco-friendly materials with a reinforced grip, they shield your skin from thorns, dirt, and blisters. Designed for flexibility and dexterity, these gloves make planting, weeding, and pruning a pleasure rather than a chore.",
+    "category": "Gardening",
+    "rating": 4.5,
+    "reviews": 110,
+    "details": {
+      "materials": "Bamboo Fiber, Natural Latex Coating",
+      "dimensions": "Available in S, M, L",
+      "care_instructions": "Machine washable; Air dry",
+      "sustainability_impact": "Biodegradable bamboo fabric; Durable design"
+    }
+  },
+  {
+    "id": 14,
+    "name": "Glass Water Bottle",
+    "price": 899.00,
+    "unit": "piece",
+    "image": "/Images/products/glass_water_bottle.jpeg",
+    "description": "Stay hydrated in style with our sleek, reusable glass water bottle. Made from high-quality borosilicate glass, it ensures your water tastes pure and free from plastic aftertaste. The protective silicone sleeve provides a non-slip grip and durability, making it the perfect eco-friendly accessory for the gym, office, or outdoor adventures.",
+    "category": "Lifestyle",
+    "rating": 4.7,
+    "reviews": 190,
+    "details": {
+      "materials": "Borosilicate Glass, Bamboo Lid, Silicone Sleeve",
+      "dimensions": "500ml Capacity",
+      "care_instructions": "Bottle is dishwasher safe; Hand wash lid",
+      "sustainability_impact": "Reduces single-use plastic bottle consumption"
+    }
+  },
+  {
+    "id": 15,
+    "name": "Organic Kale",
+    "price": 99.99,
+    "unit": "kg",
+    "image": "/Images/products/organic_kale.jpeg",
+    "description": "Power up your diet with our robust organic kale. Known as a nutritional powerhouse, our kale features dark, crinkly leaves packed with vitamins A, K, and C. Grown sustainably, it has a hearty texture and earthy flavor that holds up well in salads, chips, smoothies, and stews, offering a delicious way to fuel your body.",
+    "category": "Food",
+    "rating": 4.3,
+    "reviews": 45,
+    "details": {
+      "origin": "Nuwara Eliya, Sri Lanka",
+      "ingredients": "100% Organic Kale",
+      "nutritional_info": "Superfood; High in Vitamin K, A, C, and Calcium",
+      "sustainability_impact": "Grown without synthetic fertilizers"
+    }
+  },
+  {
+    "id": 16,
+    "name": "Watering Can",
+    "price": 899.00,
+    "unit": "piece",
+    "image": "/Images/products/watering_can.jpeg",
+    "description": "Nurture your plants with our classic, vintage-inspired metal watering can. With a generous capacity and a perfectly balanced design, it makes watering indoor and outdoor plants easy and mess-free. The removable rose attachment allows for a gentle shower for delicate seedlings or a steady stream for established plants, combining functionality with timeless garden aesthetics.",
+    "category": "Gardening",
+    "rating": 4.8,
+    "reviews": 88,
+    "details": {
+      "materials": "Galvanized Steel, Powder Coating",
+      "dimensions": "2L Capacity",
+      "care_instructions": "Empty after use to prevent rust; Store indoors",
+      "sustainability_impact": "Durable alternative to plastic cans"
+    }
+  },
+  {
+    "id": 17,
+    "name": "Organic Blueberries",
+    "price": 399.99,
+    "unit": "kg",
+    "image": "/Images/products/organic_blueberries.jpeg",
+    "description": "Enjoy nature's candy with our plump, juicy organic blueberries. Bursting with sweet flavor and potent antioxidants, these berries are hand-harvested to ensure the highest quality. Perfect for topping oatmeal, baking into muffins, or snacking by the handful, they are a delicious treat that supports your health and sustainable agriculture.",
+    "category": "Food",
+    "rating": 4.9,
+    "reviews": 175,
+    "details": {
+      "origin": "Nuwara Eliya, Sri Lanka",
+      "ingredients": "100% Organic Blueberries",
+      "nutritional_info": "High in Antioxidants (Anthocyanins), Vitamin C",
+      "sustainability_impact": "Pesticide-free cultivation protects local water sources"
+    }
+  },
+  {
+    "id": 18,
+    "name": "Recycled Notebook",
+    "price": 249.00,
+    "unit": "piece",
+    "image": "/Images/products/recycled_notebook.jpeg",
+    "description": "Capture your thoughts, ideas, and sketches in our eco-friendly recycled notebook. Featuring pages made from 100% post-consumer recycled paper and a durable cover, this notebook offers a smooth writing experience without the environmental guilt. Ideally sized for your bag or desk, it's a sustainable choice for students, professionals, and creatives alike.",
+    "category": "Lifestyle",
+    "rating": 4.6,
+    "reviews": 60,
+    "details": {
+      "materials": "100% Post-Consumer Recycled Paper, Soy-based Ink",
+      "dimensions": "A5 Size, 100 Pages",
+      "care_instructions": "Keep dry; Recycle again after use",
+      "sustainability_impact": "Saves trees, water, and energy compared to virgin paper"
+    }
+  },
+  {
+    "id": 19,
+    "name": "Basil Plant",
+    "price": 199.00,
+    "unit": "pot",
+    "image": "/Images/products/basil_plant.jpeg",
+    "description": "Bring the aroma of fresh herbs into your home with our live organic basil plant. Potted in a biodegradable container, this vigorous plant is ready to thrive on your windowsill or in your garden. Harvest fresh leaves to elevate your pasta, pesto, and salads with the unbeatable flavor of home-grown, chemical-free basil.",
+    "category": "Gardening",
+    "rating": 4.7,
+    "reviews": 95,
+    "details": {
+      "origin": "Local Organic Nursery",
+      "contents": "Live Basil Plant in Coir Pot",
+      "planting_guide": "Keep soil moist; Needs 6+ hours of sun daily",
+      "sustainability_impact": "Promotes home growing; Plastic-free pot"
+    }
+  },
+  {
+    "id": 20,
+    "name": "Almond Milk",
+    "price": 179.99,
+    "unit": "liter",
+    "image": "/Images/products/almond_milk.jpeg",
+    "description": "Discover the smooth, nutty taste of our premium organic almond milk. Made from sustainably sourced almonds and free from added sugars, carrageenan, and artificial flavors, it's a wholesome dairy-free alternative. Delicious in coffee, cereal, or smoothies, it offers a creamy texture and a dose of Vitamin E in every glass.",
+    "category": "Food",
+    "rating": 4.5,
+    "reviews": 130,
+    "details": {
+      "origin": "Made in Sri Lanka from Imported Organic Almonds",
+      "ingredients": "Water, Organic Almonds, Sea Salt",
+      "nutritional_info": "Dairy-free, Vegan, Vitamin E rich",
+      "sustainability_impact": "Lower carbon footprint than dairy milk"
+    }
+  }
+]

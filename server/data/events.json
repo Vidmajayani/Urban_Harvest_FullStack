@@ -1,0 +1,902 @@
+[
+  {
+    "id": 1,
+    "title": "Community Cleanup",
+    "date": "2026-03-15",
+    "time": "08:00 AM",
+    "location": "Central Park",
+    "image": "/Images/events/community_cleanup.jpeg",
+    "description": "Join us for a morning of cleaning up our beloved park.",
+    "detailed_description": "Join our dedicated community of volunteers for a morning of impactful action at Central Park. We'll be focusing on removing litter, clearing invasive weeds, and restoring the natural beauty of our shared green space. This is a fantastic opportunity to meet like-minded neighbors, get some fresh air, and make a tangible difference in your local environment. Gloves, bags, and refreshments will be provided for all participants.",
+    "category": "Community",
+    "rating": 4.8,
+    "price": "Free",
+    "spots_left": 15,
+    "what_to_expect": [
+      "Brief safety orientation and team assignment",
+      "2 hours of guided cleanup activities",
+      "Refreshment break with local snacks",
+      "Community networking session"
+    ],
+    "organizer": {
+      "name": "Sarah Jenkins",
+      "role": "Community Leader",
+      "image": "/Images/events/sarah_jenkins.jpeg"
+    },
+    "agenda": [
+      {
+        "time": "08:00 AM",
+        "activity": "Registration & Safety Briefing"
+      },
+      {
+        "time": "08:30 AM",
+        "activity": "Cleanup Begins"
+      },
+      {
+        "time": "10:30 AM",
+        "activity": "Refreshments & Networking"
+      }
+    ],
+    "highlights": [
+      "Gloves & Bags Provided",
+      "Community Service Certificate",
+      "Family Friendly"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Sustainable Living Lecture",
+    "date": "2026-03-20",
+    "time": "06:00 PM",
+    "location": "City Library",
+    "image": "/Images/events/sustainable_living_lecture.jpeg",
+    "description": "Learn practical tips for reducing your carbon footprint.",
+    "detailed_description": "Discover actionable strategies to live a more eco-friendly life in this engaging lecture series. Our expert speakers will cover topics ranging from zero-waste home practices and energy conservation to sustainable fashion and ethical consumption. Whether you're just starting your sustainability journey or looking to deepen your impact, you'll leave with practical tools and inspiration to make positive changes.",
+    "category": "Education",
+    "rating": 4.9,
+    "price": "Rs 500",
+    "spots_left": 45,
+    "what_to_expect": [
+      "Expert presentation on sustainable habits",
+      "Q&A session with sustainability consultants",
+      "Digital resource pack for attendees",
+      "Networking with eco-conscious peers"
+    ],
+    "organizer": {
+      "name": "Dr. Alan Grant",
+      "role": "Environmental Scientist",
+      "image": "/Images/events/alan_grant.jpg"
+    },
+    "agenda": [
+      {
+        "time": "06:00 PM",
+        "activity": "Welcome & Introduction"
+      },
+      {
+        "time": "06:15 PM",
+        "activity": "Lecture: Carbon Footprint 101"
+      },
+      {
+        "time": "07:15 PM",
+        "activity": "Q&A Session"
+      },
+      {
+        "time": "07:45 PM",
+        "activity": "Networking"
+      }
+    ],
+    "highlights": [
+      "Expert Speaker",
+      "Digital Resource Pack",
+      "Q&A Opportunity"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Tree Planting Day",
+    "date": "2026-03-25",
+    "time": "09:00 AM",
+    "location": "Riverside Reserve",
+    "image": "/Images/events/tree_planting_day.jpeg",
+    "description": "Help us plant 500 trees to restore the local ecosystem.",
+    "detailed_description": "Be part of a legacy project to restore the Riverside Reserve's native forest. Our goal is to plant 500 native saplings to combat soil erosion, provide habitat for local wildlife, and sequester carbon. No prior gardening experience is needed—our team will provide demonstrations and all necessary tools. Bring your energy and enthusiasm to help us grow a greener future!",
+    "category": "Volunteering",
+    "rating": 5.0,
+    "price": "Free",
+    "spots_left": 8,
+    "what_to_expect": [
+      "Hands-on tree planting demonstration",
+      "Planting of 5-10 saplings per volunteer",
+      "Educational talk on local flora",
+      "Certificate of participation"
+    ],
+    "organizer": {
+      "name": "Green Earth NGO",
+      "role": "Conservation Group",
+      "image": "/Images/events/green_earth_ngo.jpg"
+    },
+    "agenda": [
+      {
+        "time": "09:00 AM",
+        "activity": "Arrival & Tool Distribution"
+      },
+      {
+        "time": "09:30 AM",
+        "activity": "Planting Demonstration"
+      },
+      {
+        "time": "10:00 AM",
+        "activity": "Tree Planting Session"
+      },
+      {
+        "time": "12:00 PM",
+        "activity": "Closing Ceremony"
+      }
+    ],
+    "highlights": [
+      "Tools Provided",
+      "Native Saplings",
+      "Certificate of Participation"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Eco-Documentary Screening",
+    "date": "2026-04-01",
+    "time": "07:00 PM",
+    "location": "Community Center",
+    "image": "/Images/events/eco_documentary_screening.jpeg",
+    "description": "Screening of 'Our Planet' followed by a discussion.",
+    "detailed_description": "Immerse yourself in the breathtaking visuals and urgent message of 'Our Planet' at our community screening night. This award-winning documentary explores the beauty of Earth's natural habitats and the impact of climate change. Following the film, join a facilitated discussion to share your thoughts, feelings, and ideas for local action. Popcorn and organic beverages will be served.",
+    "category": "Education",
+    "rating": 4.7,
+    "price": "Rs 200",
+    "spots_left": 30,
+    "what_to_expect": [
+      "Full screening of the documentary",
+      "Facilitated group discussion",
+      "Organic snacks and beverages",
+      "Information on local environmental groups"
+    ],
+    "organizer": {
+      "name": "Cinema for Change",
+      "role": "Film Club",
+      "image": "/Images/events/cinema_for_change.jpeg"
+    },
+    "agenda": [
+      {
+        "time": "07:00 PM",
+        "activity": "Doors Open & Snacks"
+      },
+      {
+        "time": "07:30 PM",
+        "activity": "Documentary Screening"
+      },
+      {
+        "time": "09:00 PM",
+        "activity": "Panel Discussion"
+      }
+    ],
+    "highlights": [
+      "Award-Winning Film",
+      "Organic Popcorn",
+      "Discussion Panel"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Farmers Market Meetup",
+    "date": "2026-04-05",
+    "time": "10:00 AM",
+    "location": "Downtown Square",
+    "image": "/Images/events/farmers_market_meetup.jpeg",
+    "description": "Meet local farmers and shop for fresh produce together.",
+    "detailed_description": "Support local agriculture and connect with your food sources at our Farmers Market Meetup. We'll take a guided tour of the market, meet the farmers behind the produce, and learn about seasonal eating. It's a wonderful way to discover fresh, organic ingredients, swap recipes with fellow foodies, and strengthen our local food economy.",
+    "category": "Community",
+    "rating": 4.6,
+    "price": "Free",
+    "spots_left": 25,
+    "what_to_expect": [
+      "Guided tour of the farmers market",
+      "Meet-and-greet with local farmers",
+      "Seasonal produce tasting",
+      "Recipe swap session"
+    ],
+    "organizer": {
+      "name": "Local Food Alliance",
+      "role": "Community Group",
+      "image": "/Images/events/local_food_alliance.jpeg"
+    },
+    "agenda": [
+      {
+        "time": "10:00 AM",
+        "activity": "Meet at Market Entrance"
+      },
+      {
+        "time": "10:15 AM",
+        "activity": "Guided Market Tour"
+      },
+      {
+        "time": "11:00 AM",
+        "activity": "Farmer Meet & Greet"
+      },
+      {
+        "time": "11:30 AM",
+        "activity": "Recipe Swap & Social"
+      }
+    ],
+    "highlights": [
+      "Fresh Produce",
+      "Support Local Farmers",
+      "Recipe Exchange"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "River Cleanup Drive",
+    "date": "2026-04-10",
+    "time": "08:30 AM",
+    "location": "River Walkway",
+    "image": "/Images/events/river_cleanup_drive.jpeg",
+    "description": "Volunteer to clean up the river banks and protect wildlife.",
+    "detailed_description": "Our river is the lifeline of our city, but it needs our help. Join the River Cleanup Drive to remove plastic waste and debris from the riverbanks. Your efforts will directly improve water quality and protect aquatic life. We provide all safety gear, including gloves and grabbers. Wear comfortable clothes and sturdy shoes, and get ready to make a splash for the environment!",
+    "category": "Volunteering",
+    "rating": 4.9,
+    "price": "Free",
+    "spots_left": 12,
+    "what_to_expect": [
+      "Safety briefing and gear distribution",
+      "Riverbank waste collection",
+      "Waste segregation and recycling",
+      "Refreshments and team photo"
+    ],
+    "organizer": {
+      "name": "Blue River Guardians",
+      "role": "Conservation Group",
+      "image": "/Images/events/blue_river_guardians.jpeg"
+    },
+    "agenda": [
+      {
+        "time": "08:30 AM",
+        "activity": "Safety Briefing"
+      },
+      {
+        "time": "09:00 AM",
+        "activity": "Cleanup Starts"
+      },
+      {
+        "time": "11:30 AM",
+        "activity": "Weigh-in & Sorting"
+      },
+      {
+        "time": "12:00 PM",
+        "activity": "Lunch"
+      }
+    ],
+    "highlights": [
+      "Equipment Provided",
+      "Community Lunch",
+      "Impact Report"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Zero Waste Workshop",
+    "date": "2026-04-15",
+    "time": "02:00 PM",
+    "location": "Green Hub",
+    "image": "/Images/events/zero_waste_workshop.jpeg",
+    "description": "Interactive session on achieving a zero-waste lifestyle.",
+    "detailed_description": "Transitioning to a zero-waste lifestyle is easier than you think! In this hands-on workshop, you'll learn practical techniques to reduce household waste. We'll cover composting, bulk shopping, DIY natural cleaning products, and plastic-free alternatives. Participants will create their own beeswax wrap to take home. Perfect for beginners looking to reduce their environmental footprint.",
+    "category": "Education",
+    "rating": 4.8,
+    "price": "Rs 800",
+    "spots_left": 20,
+    "what_to_expect": [
+      "Introduction to the 5 Rs of Zero Waste",
+      "DIY Beeswax Wrap making session",
+      "Guide to local bulk stores",
+      "Zero waste starter kit giveaway"
+    ],
+    "organizer": {
+      "name": "Emma Stone",
+      "role": "Zero Waste Activist",
+      "image": "/Images/events/emma_stone.jpeg"
+    },
+    "agenda": [
+      {
+        "time": "02:00 PM",
+        "activity": "Intro to Zero Waste"
+      },
+      {
+        "time": "02:45 PM",
+        "activity": "DIY Workshop"
+      },
+      {
+        "time": "04:00 PM",
+        "activity": "Q&A & Kit Distribution"
+      }
+    ],
+    "highlights": [
+      "DIY Kit Included",
+      "Take-home Beeswax Wrap",
+      "Expert Guidance"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Community Potluck",
+    "date": "2026-04-20",
+    "time": "05:00 PM",
+    "location": "Park Pavilion",
+    "image": "/Images/events/community_potluck.jpeg",
+    "description": "Bring a vegan dish to share and meet your neighbors.",
+    "detailed_description": "Celebrate community and delicious plant-based food at our monthly Community Potluck. Bring a vegan dish to share and enjoy a diverse spread of homemade culinary delights. It's a casual, friendly gathering designed to foster neighborhood connections and showcase the variety and flavor of vegan cuisine. Please bring a label with your ingredients for those with allergies.",
+    "category": "Community",
+    "rating": 4.7,
+    "price": "Free",
+    "spots_left": 50,
+    "what_to_expect": [
+      "Shared vegan buffet dinner",
+      "Recipe exchange board",
+      "Community announcements",
+      "Music and social time"
+    ],
+    "organizer": {
+      "name": "Neighborhood Watch",
+      "role": "Community Org",
+      "image": "/Images/events/neighborhood_watch.jpeg"
+    },
+    "agenda": [
+      {
+        "time": "05:00 PM",
+        "activity": "Arrival & Dish Setup"
+      },
+      {
+        "time": "05:30 PM",
+        "activity": "Dinner Served"
+      },
+      {
+        "time": "07:00 PM",
+        "activity": "Social & Music"
+      }
+    ],
+    "highlights": [
+      "Family Friendly",
+      "Live Music",
+      "Recipe Exchange"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Climate Action Panel",
+    "date": "2026-05-05",
+    "time": "06:30 PM",
+    "location": "University Hall",
+    "image": "/Images/events/climate_action_panel.jpeg",
+    "description": "Experts discuss local climate action strategies.",
+    "detailed_description": "Join a panel of leading environmental scientists, urban planners, and activists as they discuss the state of our local climate and actionable strategies for resilience. This event will focus on policy changes, community initiatives, and individual actions that can drive systemic change. A robust Q&A session will follow, giving you the chance to ask tough questions and get informed answers.",
+    "category": "Education",
+    "rating": 4.9,
+    "price": "Rs 300",
+    "spots_left": 100,
+    "what_to_expect": [
+      "Panel discussion with 4 experts",
+      "Interactive Q&A session",
+      "Networking with local advocacy groups",
+      "Action guide handout"
+    ],
+    "organizer": {
+      "name": "Climate Reality Project",
+      "role": "Advocacy Group",
+      "image": "/Images/events/climate_reality_project.png"
+    },
+    "agenda": [
+      {
+        "time": "06:30 PM",
+        "activity": "Panel Introductions"
+      },
+      {
+        "time": "07:00 PM",
+        "activity": "Moderated Discussion"
+      },
+      {
+        "time": "08:00 PM",
+        "activity": "Audience Q&A"
+      }
+    ],
+    "highlights": [
+      "Expert Panel",
+      "Action Guide",
+      "Networking"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Beach Cleanup",
+    "date": "2026-05-10",
+    "time": "07:30 AM",
+    "location": "Sunny Beach",
+    "image": "/Images/events/beach_cleanup.jpeg",
+    "description": "Keep our oceans clean by removing plastic from the beach.",
+    "detailed_description": "Start your day with purpose at our Beach Cleanup. We'll be tackling the tide line to remove microplastics and larger debris before they wash back into the ocean. This is a crucial activity for protecting marine life and keeping our coastlines pristine. It's a family-friendly event, and a great way to teach children about ocean conservation while enjoying the seaside.",
+    "category": "Volunteering",
+    "rating": 4.8,
+    "price": "Free",
+    "spots_left": 40,
+    "what_to_expect": [
+      "Beach cleanup equipment provided",
+      "Educational talk on marine pollution",
+      "Weigh-in of collected waste",
+      "Light breakfast on the beach"
+    ],
+    "organizer": {
+      "name": "Ocean Saviors",
+      "role": "Non-Profit",
+      "image": "/Images/events/ocean_saviors.jpeg"
+    },
+    "agenda": [
+      {
+        "time": "07:30 AM",
+        "activity": "Gear Up & Briefing"
+      },
+      {
+        "time": "08:00 AM",
+        "activity": "Cleanup"
+      },
+      {
+        "time": "10:00 AM",
+        "activity": "Weigh-in & Breakfast"
+      }
+    ],
+    "highlights": [
+      "Breakfast Included",
+      "Equipment Provided",
+      "Ocean Education"
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Urban Gardening Tour",
+    "date": "2026-05-15",
+    "time": "10:00 AM",
+    "location": "Various Rooftops",
+    "image": "/Images/events/urban_gardening_tour.jpeg",
+    "description": "Tour successful urban gardens in the city center.",
+    "detailed_description": "Explore the hidden green oases of our city on the Urban Gardening Tour. We'll visit three thriving rooftop and balcony gardens that demonstrate what's possible in small spaces. Learn from the gardeners themselves about container gardening, vertical planting, and composting in apartments. Get inspired to transform your own urban space into a productive green patch.",
+    "category": "Community",
+    "rating": 4.7,
+    "price": "Rs 1000",
+    "spots_left": 15,
+    "what_to_expect": [
+      "Guided tour of 3 urban gardens",
+      "Q&A with garden owners",
+      "Tips for small-space gardening",
+      "Seed packet souvenir"
+    ],
+    "organizer": {
+      "name": "City Greeners",
+      "role": "Garden Club",
+      "image": "/Images/events/city_greeners.png"
+    },
+    "agenda": [
+      {
+        "time": "10:00 AM",
+        "activity": "Meet at Garden 1"
+      },
+      {
+        "time": "11:00 AM",
+        "activity": "Garden 2 Visit"
+      },
+      {
+        "time": "12:00 PM",
+        "activity": "Garden 3 & Lunch"
+      }
+    ],
+    "highlights": [
+      "Exclusive Access",
+      "Expert Tips",
+      "Free Seeds"
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Renewable Energy Talk",
+    "date": "2026-05-20",
+    "time": "03:00 PM",
+    "location": "Science Museum",
+    "image": "/Images/events/renewable_energy_talk.jpeg",
+    "description": "Understanding solar and wind power for homeowners.",
+    "detailed_description": "Are you considering switching to renewable energy? This talk breaks down the technologies, costs, and benefits of residential solar and wind power. We'll cover government incentives, installation processes, and return on investment. Whether you own a home or want to advocate for community energy projects, this session will demystify the transition to clean energy.",
+    "category": "Education",
+    "rating": 4.6,
+    "price": "Rs 400",
+    "spots_left": 60,
+    "what_to_expect": [
+      "Presentation on solar & wind tech",
+      "Case studies of local installations",
+      "Financial incentives breakdown",
+      "Consultation with installers"
+    ],
+    "organizer": {
+      "name": "Prof. David Lee",
+      "role": "Energy Consultant",
+      "image": "/Images/events/david_lee.jpeg"
+    },
+    "agenda": [
+      {
+        "time": "03:00 PM",
+        "activity": "Tech Overview"
+      },
+      {
+        "time": "04:00 PM",
+        "activity": "Financials & Incentives"
+      },
+      {
+        "time": "04:45 PM",
+        "activity": "Installer Meetup"
+      }
+    ],
+    "highlights": [
+      "Expert Advice",
+      "Installer Contacts",
+      "ROI Calculator"
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Food Rescue Mission",
+    "date": "2026-05-25",
+    "time": "05:30 PM",
+    "location": "City Market",
+    "image": "/Images/events/food_rescue_mission.jpeg",
+    "description": "Collect surplus food for local shelters.",
+    "detailed_description": "Join our Food Rescue Mission to fight food waste and hunger simultaneously. We partner with local vendors at the City Market to collect unsold but perfectly edible produce and bread. Volunteers will help sort, pack, and deliver this food to local shelters and community kitchens. It's a high-energy, rewarding activity that makes an immediate difference.",
+    "category": "Volunteering",
+    "rating": 4.9,
+    "price": "Free",
+    "spots_left": 10,
+    "what_to_expect": [
+      "Briefing on food safety handling",
+      "Collection and sorting of food",
+      "Packing for distribution",
+      "Delivery run (optional)"
+    ],
+    "organizer": {
+      "name": "Food For All",
+      "role": "Charity",
+      "image": "/Images/events/food_for_all.jpg"
+    },
+    "agenda": [
+      {
+        "time": "05:30 PM",
+        "activity": "Safety Briefing"
+      },
+      {
+        "time": "06:00 PM",
+        "activity": "Collection"
+      },
+      {
+        "time": "07:30 PM",
+        "activity": "Distribution"
+      }
+    ],
+    "highlights": [
+      "Immediate Impact",
+      "Team Building",
+      "Community Service"
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Sustainability Fair",
+    "date": "2026-06-01",
+    "time": "09:00 AM",
+    "location": "Exhibition Center",
+    "image": "/Images/events/sustainability_fair.jpeg",
+    "description": "Discover sustainable brands and initiatives.",
+    "detailed_description": "The annual Sustainability Fair is the premier event for eco-conscious living. Browse over 50 stalls featuring sustainable fashion, organic skincare, upcycled home goods, and green tech. Enjoy live music, organic food trucks, and interactive workshops throughout the day. It's a celebration of innovation and ethical consumption for the whole family.",
+    "category": "Community",
+    "rating": 4.8,
+    "price": "Rs 200",
+    "spots_left": 200,
+    "what_to_expect": [
+      "Access to 50+ sustainable vendors",
+      "Live music and entertainment",
+      "Workshops and demos",
+      "Organic food court access"
+    ],
+    "organizer": {
+      "name": "EcoExpo",
+      "role": "Event Company",
+      "image": "/Images/events/ecoexpo.png"
+    },
+    "agenda": [
+      {
+        "time": "09:00 AM",
+        "activity": "Gates Open"
+      },
+      {
+        "time": "11:00 AM",
+        "activity": "Keynote Speech"
+      },
+      {
+        "time": "02:00 PM",
+        "activity": "Live Music"
+      },
+      {
+        "time": "06:00 PM",
+        "activity": "Closing"
+      }
+    ],
+    "highlights": [
+      "50+ Vendors",
+      "Live Entertainment",
+      "Family Fun"
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Composting Masterclass",
+    "date": "2026-06-05",
+    "time": "11:00 AM",
+    "location": "Botanical Gardens",
+    "image": "/Images/events/composting_masterclass.jpeg",
+    "description": "Deep dive into the science of composting.",
+    "detailed_description": "Turn your kitchen scraps into black gold! This masterclass covers the biology and chemistry of composting. We'll troubleshoot common issues like odors and pests, and compare different methods including vermicomposting, bokashi, and hot composting. You'll leave with the knowledge to set up and maintain a thriving compost system that feeds your garden.",
+    "category": "Education",
+    "rating": 4.7,
+    "price": "Rs 600",
+    "spots_left": 25,
+    "what_to_expect": [
+      "In-depth composting theory",
+      "Demonstration of 3 compost systems",
+      "Troubleshooting Q&A",
+      "Free compost starter culture"
+    ],
+    "organizer": {
+      "name": "Master Gardener Sue",
+      "role": "Educator",
+      "image": "/Images/events/master_gardener_sue.jpeg"
+    },
+    "agenda": [
+      {
+        "time": "11:00 AM",
+        "activity": "Theory Session"
+      },
+      {
+        "time": "12:00 PM",
+        "activity": "Practical Demo"
+      },
+      {
+        "time": "01:00 PM",
+        "activity": "Q&A"
+      }
+    ],
+    "highlights": [
+      "Starter Culture",
+      "Comprehensive Guide",
+      "Expert Support"
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Park Restoration",
+    "date": "2026-06-10",
+    "time": "08:00 AM",
+    "location": "Old City Park",
+    "image": "/Images/events/park_restoration.jpeg",
+    "description": "Restoring native plants to the park area.",
+    "detailed_description": "Help us bring back the native biodiversity of Old City Park. We will be removing invasive species that choke out local flora and planting native shrubs and wildflowers. This restoration work is vital for supporting local pollinators like bees and butterflies. It's rewarding physical work that leaves a lasting legacy of beauty and ecological health.",
+    "category": "Volunteering",
+    "rating": 4.8,
+    "price": "Free",
+    "spots_left": 20,
+    "what_to_expect": [
+      "Identification of invasive vs native plants",
+      "Removal and planting activities",
+      "Pollinator garden creation",
+      "Community lunch"
+    ],
+    "organizer": {
+      "name": "Parks Dept",
+      "role": "City Government",
+      "image": "/Images/events/parks_dept.webp"
+    },
+    "agenda": [
+      {
+        "time": "08:00 AM",
+        "activity": "Briefing"
+      },
+      {
+        "time": "08:30 AM",
+        "activity": "Restoration Work"
+      },
+      {
+        "time": "12:00 PM",
+        "activity": "Lunch"
+      }
+    ],
+    "highlights": [
+      "Tools Provided",
+      "Lunch Included",
+      "Learn Native Plants"
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Eco-Book Club",
+    "date": "2026-06-15",
+    "time": "06:00 PM",
+    "location": "Local Cafe",
+    "image": "/Images/events/eco_book_club.jpeg",
+    "description": "Discussing 'Silent Spring' by Rachel Carson.",
+    "detailed_description": "Join our monthly Eco-Book Club for a thoughtful discussion of 'Silent Spring' by Rachel Carson. This seminal work launched the modern environmental movement. We'll explore its historical context, its relevance today, and the power of literature to spark change. Whether you've read it before or it's your first time, come share your insights in a cozy, welcoming atmosphere.",
+    "category": "Community",
+    "rating": 4.9,
+    "price": "Free",
+    "spots_left": 12,
+    "what_to_expect": [
+      "Guided book discussion",
+      "Analysis of key themes",
+      "Sharing of personal reflections",
+      "Coffee and tea provided"
+    ],
+    "organizer": {
+      "name": "Literary Circle",
+      "role": "Club",
+      "image": "/Images/events/literary_circle.jpeg"
+    },
+    "agenda": [
+      {
+        "time": "06:00 PM",
+        "activity": "Welcome & Coffee"
+      },
+      {
+        "time": "06:30 PM",
+        "activity": "Book Discussion"
+      },
+      {
+        "time": "07:30 PM",
+        "activity": "Closing Thoughts"
+      }
+    ],
+    "highlights": [
+      "Free Coffee",
+      "Great Conversation",
+      "New Friends"
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Green Tech Showcase",
+    "date": "2026-06-20",
+    "time": "04:00 PM",
+    "location": "Tech Hub",
+    "image": "/Images/events/green_tech_showcase.jpeg",
+    "description": "Latest innovations in green technology.",
+    "detailed_description": "Get a glimpse into the future at the Green Tech Showcase. Startups and innovators will demo cutting-edge solutions for clean energy, water purification, smart agriculture, and waste management. See prototypes in action, talk to the inventors, and learn how technology is being harnessed to solve our most pressing environmental challenges.",
+    "category": "Education",
+    "rating": 4.7,
+    "price": "Rs 500",
+    "spots_left": 80,
+    "what_to_expect": [
+      "Demos of new green technologies",
+      "Meet the founders sessions",
+      "Networking with tech community",
+      "Innovation awards ceremony"
+    ],
+    "organizer": {
+      "name": "Tech Innovators",
+      "role": "Incubator",
+      "image": "/Images/events/tech_innovators.png"
+    },
+    "agenda": [
+      {
+        "time": "04:00 PM",
+        "activity": "Expo Floor Open"
+      },
+      {
+        "time": "05:30 PM",
+        "activity": "Founder Pitches"
+      },
+      {
+        "time": "07:00 PM",
+        "activity": "Awards & Networking"
+      }
+    ],
+    "highlights": [
+      "Cutting-edge Tech",
+      "Networking",
+      "Awards"
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Seed Swap Event",
+    "date": "2026-06-25",
+    "time": "02:00 PM",
+    "location": "Community Garden",
+    "image": "/Images/events/seed_swap_event.jpeg",
+    "description": "Exchange seeds and gardening tips with others.",
+    "detailed_description": "Diversify your garden and save money at our Seed Swap Event. Bring your surplus seeds—vegetables, flowers, or herbs—and trade them for varieties you don't have. It's a great way to preserve heirloom varieties and share local gardening knowledge. Even if you don't have seeds to swap, come along to pick up some starters and advice from experienced growers.",
+    "category": "Community",
+    "rating": 4.8,
+    "price": "Free",
+    "spots_left": 30,
+    "what_to_expect": [
+      "Seed exchange tables",
+      "Seed saving workshop",
+      "Garden planning advice",
+      "Socializing with local gardeners"
+    ],
+    "organizer": {
+      "name": "Garden Collective",
+      "role": "Community Group",
+      "image": "/Images/events/garden_collective.webp"
+    },
+    "agenda": [
+      {
+        "time": "02:00 PM",
+        "activity": "Seed Drop-off"
+      },
+      {
+        "time": "02:30 PM",
+        "activity": "Swapping Begins"
+      },
+      {
+        "time": "04:00 PM",
+        "activity": "Garden Chat"
+      }
+    ],
+    "highlights": [
+      "Free Seeds",
+      "Expert Advice",
+      "Community Spirit"
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Wildlife Photography",
+    "date": "2026-07-01",
+    "time": "07:00 AM",
+    "location": "Nature Reserve",
+    "image": "/Images/events/wildlife_photography.jpeg",
+    "description": "Learn to photograph nature without disturbing it.",
+    "detailed_description": "Capture the beauty of the natural world while respecting its inhabitants. This workshop, led by a professional wildlife photographer, focuses on ethical photography techniques. You'll learn about lighting, composition, and animal behavior, as well as the importance of leaving no trace. Bring your camera (DSLR or smartphone) for a morning of learning in the field.",
+    "category": "Education",
+    "rating": 4.9,
+    "price": "Rs 1200",
+    "spots_left": 10,
+    "what_to_expect": [
+      "Field photography session",
+      "Instruction on ethical practices",
+      "Composition and lighting tips",
+      "Photo review and feedback"
+    ],
+    "organizer": {
+      "name": "Lens & Nature",
+      "role": "Photography Club",
+      "image": "/Images/events/lens_nature.webp"
+    },
+    "agenda": [
+      {
+        "time": "07:00 AM",
+        "activity": "Meet at Reserve"
+      },
+      {
+        "time": "07:30 AM",
+        "activity": "Field Session"
+      },
+      {
+        "time": "10:30 AM",
+        "activity": "Review & Coffee"
+      }
+    ],
+    "highlights": [
+      "Pro Instruction",
+      "Small Group",
+      "Field Practice"
+    ]
+  }
+]

@@ -1,0 +1,548 @@
+[
+  {
+    "id": 1,
+    "title": "Urban Gardening Basics",
+    "instructor": "Jane Doe",
+    "instructor_role": "Master Gardener",
+    "instructor_image": "/Images/workshops/jane_doe.jpg",
+    "date": "2026-03-10",
+    "time": "09:00 AM - 12:00 PM",
+    "duration": "3 hours",
+    "location": "Community Center, Hall A",
+    "image": "/Images/workshops/urban_gardening_basics.jpeg",
+    "description": "Learn how to grow your own food in small spaces.",
+    "detailed_description": "Discover the joys of growing your own fresh produce, even with limited space. This comprehensive workshop covers everything from selecting the right containers and soil mixes to choosing the best crops for your balcony or patio. You'll learn essential techniques for watering, fertilizing, and pest management to ensure a bountiful harvest.",
+    "category": "Gardening",
+    "price": "Rs 1500",
+    "spots_left": 12,
+    "level": "Beginner",
+    "learning_outcomes": [
+      "Selecting suitable containers and soil",
+      "Choosing the right plants for small spaces",
+      "Watering and feeding techniques",
+      "Basic pest control methods"
+    ],
+    "requirements": [
+      "Notebook and pen",
+      "Comfortable clothing"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "DIY Natural Soap Making",
+    "instructor": "John Smith",
+    "instructor_role": "Artisan Soap Maker",
+    "instructor_image": "/Images/workshops/john_smith.webp",
+    "date": "2026-03-18",
+    "time": "10:00 AM - 02:00 PM",
+    "duration": "4 hours",
+    "location": "Creative Studio, Downtown",
+    "image": "/Images/workshops/diy_natural_soap_making.jpeg",
+    "description": "Create your own chemical-free soaps at home.",
+    "detailed_description": "Dive into the art of cold-process soap making. In this hands-on session, you will learn how to formulate your own soap recipes using natural oils, butters, and essential oils. We will cover safety precautions, lye handling, and design techniques like swirling and layering. You'll take home a batch of your own handmade soap!",
+    "category": "DIY",
+    "price": "Rs 2500",
+    "spots_left": 8,
+    "level": "Beginner",
+    "learning_outcomes": [
+      "Understanding soap chemistry",
+      "Safety with lye",
+      "Formulating recipes",
+      "Using essential oils and natural colorants"
+    ],
+    "requirements": [
+      "Long-sleeved shirt",
+      "Closed-toe shoes"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Composting 101",
+    "instructor": "Alice Green",
+    "instructor_role": "Sustainability Expert",
+    "instructor_image": "/Images/workshops/alice_green.jpg",
+    "date": "2026-03-25",
+    "time": "02:00 PM - 04:00 PM",
+    "duration": "2 hours",
+    "location": "City Park Pavilion",
+    "image": "/Images/workshops/composting_101.jpeg",
+    "description": "Turn your kitchen scraps into nutrient-rich soil.",
+    "detailed_description": "Stop throwing away valuable organic matter! Learn the science of composting and how to turn kitchen scraps and yard waste into 'black gold' for your garden. We'll explore different composting methods, including backyard bins, vermicomposting (worm bins), and bokashi, helping you find the perfect system for your lifestyle.",
+    "category": "Sustainability",
+    "price": "Free",
+    "spots_left": 25,
+    "level": "Beginner",
+    "learning_outcomes": [
+      "The science of decomposition",
+      "Greens vs. Browns ratio",
+      "Troubleshooting common issues",
+      "Harvesting and using compost"
+    ],
+    "requirements": [
+      "None"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Upcycling Old Clothes",
+    "instructor": "Sarah Lee",
+    "instructor_role": "Fashion Designer",
+    "instructor_image": "/Images/workshops/sarah_lee.jpg",
+    "date": "2026-04-02",
+    "time": "01:00 PM - 05:00 PM",
+    "duration": "4 hours",
+    "location": "Fashion Hub",
+    "image": "/Images/workshops/upcycling_old_clothes.png",
+    "description": "Give new life to your old wardrobe items.",
+    "detailed_description": "Don't toss those old clothes! Learn creative ways to repair, alter, and transform your wardrobe. From simple mending and embroidery to complete reconstruction, this workshop will teach you sewing techniques to extend the life of your garments and express your unique style sustainably.",
+    "category": "DIY",
+    "price": "Rs 2000",
+    "spots_left": 10,
+    "level": "Intermediate",
+    "learning_outcomes": [
+      "Basic sewing and mending",
+      "Creative patching and embroidery",
+      "Garment reconstruction techniques",
+      "Sustainable fashion principles"
+    ],
+    "requirements": [
+      "Old clothes to work on",
+      "Sewing kit (optional)"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Hydroponics for Beginners",
+    "instructor": "Mike Brown",
+    "instructor_role": "Hydroponics Specialist",
+    "instructor_image": "/Images/workshops/mike_brown.jpg",
+    "date": "2026-04-09",
+    "time": "09:00 AM - 01:00 PM",
+    "duration": "4 hours",
+    "location": "Green Tech Lab",
+    "image": "/Images/workshops/hydroponics_for_beginners.jpg",
+    "description": "Grow plants without soil using water-based systems.",
+    "detailed_description": "Explore the fascinating world of soil-less gardening. Learn about different hydroponic systems like Kratky, DWC (Deep Water Culture), and NFT (Nutrient Film Technique). We'll build a simple system together and discuss nutrient solutions, pH management, and lighting requirements for indoor growing.",
+    "category": "Gardening",
+    "price": "Rs 3000",
+    "spots_left": 15,
+    "level": "Beginner",
+    "learning_outcomes": [
+      "Principles of hydroponics",
+      "Building a simple system",
+      "Managing nutrients and pH",
+      "Selecting suitable crops"
+    ],
+    "requirements": [
+      "None"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Zero Waste Kitchen",
+    "instructor": "Emma White",
+    "instructor_role": "Zero Waste Activist",
+    "instructor_image": "/Images/workshops/emma_white.jpg",
+    "date": "2026-04-16",
+    "time": "10:00 AM - 12:00 PM",
+    "duration": "2 hours",
+    "location": "Eco Living Center",
+    "image": "/Images/workshops/zero_waste_kitchen.jpg",
+    "description": "Tips and tricks for a plastic-free kitchen.",
+    "detailed_description": "Transform your kitchen into a sustainable haven. Learn practical strategies to reduce food waste, eliminate single-use plastics, and shop in bulk. We'll demonstrate how to make your own beeswax wraps, produce bags, and natural kitchen cleaners.",
+    "category": "Sustainability",
+    "price": "Rs 1000",
+    "spots_left": 20,
+    "level": "Beginner",
+    "learning_outcomes": [
+      "Reducing food waste",
+      "Alternatives to plastic",
+      "Bulk shopping tips",
+      "DIY beeswax wraps"
+    ],
+    "requirements": [
+      "None"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Natural Dyeing Workshop",
+    "instructor": "Lily Chen",
+    "instructor_role": "Textile Artist",
+    "instructor_image": "/Images/workshops/lily_chen.jpeg",
+    "date": "2026-05-06",
+    "time": "09:00 AM - 03:00 PM",
+    "duration": "6 hours",
+    "location": "Artisan Village",
+    "image": "/Images/workshops/natural_dyeing_workshop.jpg",
+    "description": "Dye fabrics using plants and food scraps.",
+    "detailed_description": "Unlock the colors of nature! Learn how to extract beautiful pigments from flowers, leaves, roots, and kitchen scraps like onion skins and avocado pits. We'll cover fabric preparation (mordanting), dye bath preparation, and different dyeing techniques like bundle dyeing and shibori.",
+    "category": "DIY",
+    "price": "Rs 3500",
+    "spots_left": 8,
+    "level": "Intermediate",
+    "learning_outcomes": [
+      "Identifying dye plants",
+      "Preparing fabrics (mordanting)",
+      "Extracting pigments",
+      "Creating patterns"
+    ],
+    "requirements": [
+      "White cotton t-shirt or fabric",
+      "Apron"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Vertical Gardening",
+    "instructor": "Tom Wilson",
+    "instructor_role": "Landscape Architect",
+    "instructor_image": "/Images/workshops/tom_wilson.jpg",
+    "date": "2026-05-13",
+    "time": "10:00 AM - 01:00 PM",
+    "duration": "3 hours",
+    "location": "Rooftop Garden",
+    "image": "/Images/workshops/vertical_gardening.jpg",
+    "description": "Maximize your space with vertical planting techniques.",
+    "detailed_description": "Short on space? Grow up! This workshop explores creative vertical gardening solutions for balconies, walls, and fences. Learn about trellis systems, living walls, pocket planters, and choosing the right plants for vertical growth. Perfect for urban dwellers.",
+    "category": "Gardening",
+    "price": "Rs 1800",
+    "spots_left": 15,
+    "level": "Beginner",
+    "learning_outcomes": [
+      "Types of vertical structures",
+      "Plant selection for vertical growth",
+      "Irrigation for vertical gardens",
+      "DIY trellis ideas"
+    ],
+    "requirements": [
+      "None"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Energy Saving at Home",
+    "instructor": "David Clark",
+    "instructor_role": "Energy Auditor",
+    "instructor_image": "/Images/workshops/david_clark.webp",
+    "date": "2026-05-20",
+    "time": "02:00 PM - 04:00 PM",
+    "duration": "2 hours",
+    "location": "Community Library",
+    "image": "/Images/workshops/energy_saving_at_home.jpg",
+    "description": "Reduce your energy bills and carbon footprint.",
+    "detailed_description": "Learn practical and cost-effective ways to improve your home's energy efficiency. We'll discuss insulation, draft proofing, efficient appliances, smart home technology, and behavioral changes that can significantly lower your electricity bills and environmental impact.",
+    "category": "Sustainability",
+    "price": "Free",
+    "spots_left": 30,
+    "level": "Beginner",
+    "learning_outcomes": [
+      "Identifying energy vampires",
+      "Simple insulation tips",
+      "Understanding energy labels",
+      "Smart home integration"
+    ],
+    "requirements": [
+      "Recent electricity bill (optional)"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Beekeeping for Beginners",
+    "instructor": "Bee Keeper Bob",
+    "instructor_role": "Apiarist",
+    "instructor_image": "/Images/workshops/bee_keeper_bob.jpg",
+    "date": "2026-05-27",
+    "time": "09:00 AM - 04:00 PM",
+    "duration": "7 hours",
+    "location": "Urban Apiary",
+    "image": "/Images/workshops/beekeeping_for_beginners.jpg",
+    "description": "Introduction to urban beekeeping.",
+    "detailed_description": "A comprehensive introduction to the fascinating world of honeybees. Learn about bee biology, hive hierarchy, equipment needed, and how to start and maintain your own hive. We'll also cover bee-friendly gardening and the importance of pollinators in our ecosystem.",
+    "category": "Gardening",
+    "price": "Rs 4000",
+    "spots_left": 10,
+    "level": "Beginner",
+    "learning_outcomes": [
+      "Bee biology and behavior",
+      "Hive equipment and tools",
+      "Hive management basics",
+      "Harvesting honey"
+    ],
+    "requirements": [
+      "Protective gear provided",
+      "Wear light-colored clothing"
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Candle Making",
+    "instructor": "Jenny Art",
+    "instructor_role": "Crafts Instructor",
+    "instructor_image": "/Images/workshops/jenny_art.jpg",
+    "date": "2026-06-03",
+    "time": "02:00 PM - 05:00 PM",
+    "duration": "3 hours",
+    "location": "Craft Corner",
+    "image": "/Images/workshops/candle_making.jpg",
+    "description": "Make soy wax candles with essential oils.",
+    "detailed_description": "Learn the art of making clean-burning soy wax candles. We'll explore different waxes, wicks, and fragrance loads. You'll blend your own custom scents using essential oils and pour your own container candles to take home. Perfect for gifts or self-care.",
+    "category": "DIY",
+    "price": "Rs 2200",
+    "spots_left": 12,
+    "level": "Beginner",
+    "learning_outcomes": [
+      "Types of candle wax",
+      "Wicking and pouring techniques",
+      "Scent blending",
+      "Candle safety"
+    ],
+    "requirements": [
+      "None"
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Permaculture Principles",
+    "instructor": "Gaia Earth",
+    "instructor_role": "Permaculture Designer",
+    "instructor_image": "/Images/workshops/gaia_earth.webp",
+    "date": "2026-06-10",
+    "time": "09:00 AM - 05:00 PM",
+    "duration": "8 hours",
+    "location": "Eco Farm",
+    "image": "/Images/workshops/permaculture_principles.png",
+    "description": "Designing sustainable human settlements.",
+    "detailed_description": "An intensive introduction to permaculture design. Learn how to observe nature and apply its patterns to design sustainable systems for food production, housing, and community. We'll cover zones, sectors, guilds, and water management principles.",
+    "category": "Sustainability",
+    "price": "Rs 4500",
+    "spots_left": 15,
+    "level": "Intermediate",
+    "learning_outcomes": [
+      "Permaculture ethics and principles",
+      "Site analysis and design",
+      "Soil building and water harvesting",
+      "Plant guilds and polycultures"
+    ],
+    "requirements": [
+      "Notebook",
+      "Lunch provided"
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Container Gardening",
+    "instructor": "Potter Pat",
+    "instructor_role": "Horticulturist",
+    "instructor_image": "/Images/workshops/potter_pat.jpeg",
+    "date": "2026-06-17",
+    "time": "10:00 AM - 01:00 PM",
+    "duration": "3 hours",
+    "location": "Garden Center",
+    "image": "/Images/workshops/container_gardening.jpg",
+    "description": "Growing vegetables in pots and containers.",
+    "detailed_description": "No garden? No problem! Learn how to grow a productive vegetable garden in pots, planters, and window boxes. We'll discuss soil mixes, watering needs, and the best varieties of vegetables, herbs, and fruits for container culture.",
+    "category": "Gardening",
+    "price": "Rs 1600",
+    "spots_left": 18,
+    "level": "Beginner",
+    "learning_outcomes": [
+      "Choosing the right containers",
+      "Potting mix recipes",
+      "Fertilizing container plants",
+      "Seasonal planting guide"
+    ],
+    "requirements": [
+      "None"
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Eco-Friendly Cleaning",
+    "instructor": "Clean Claire",
+    "instructor_role": "Green Living Coach",
+    "instructor_image": "/Images/workshops/clean_claire.png",
+    "date": "2026-06-24",
+    "time": "02:00 PM - 04:00 PM",
+    "duration": "2 hours",
+    "location": "Community Hall",
+    "image": "/Images/workshops/eco_friendly_cleaning.png",
+    "description": "Make your own non-toxic cleaning products.",
+    "detailed_description": "Ditch the harsh chemicals and make your own effective, natural cleaning products for pennies. We'll use simple ingredients like vinegar, baking soda, castile soap, and essential oils to create all-purpose cleaners, laundry detergent, and scrubs.",
+    "category": "DIY",
+    "price": "Rs 1200",
+    "spots_left": 20,
+    "level": "Beginner",
+    "learning_outcomes": [
+      "Understanding ingredients",
+      "Recipes for home cleaners",
+      "Essential oils for cleaning",
+      "Storage and safety"
+    ],
+    "requirements": [
+      "Bring 2 empty spray bottles"
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Water Conservation",
+    "instructor": "River Flow",
+    "instructor_role": "Environmental Engineer",
+    "instructor_image": "/Images/workshops/river_flow.png",
+    "date": "2026-07-02",
+    "time": "10:00 AM - 12:00 PM",
+    "duration": "2 hours",
+    "location": "Water Works Center",
+    "image": "/Images/workshops/water_conservation.jpg",
+    "description": "Strategies for saving water in the garden and home.",
+    "detailed_description": "Water is a precious resource. Learn how to capture rainwater, install greywater systems, and design drought-tolerant landscapes (xeriscaping). We'll also cover simple home retrofits to reduce water consumption.",
+    "category": "Sustainability",
+    "price": "Free",
+    "spots_left": 30,
+    "level": "Beginner",
+    "learning_outcomes": [
+      "Rainwater harvesting basics",
+      "Greywater safety and use",
+      "Drought-tolerant plant selection",
+      "Leak detection and repair"
+    ],
+    "requirements": [
+      "None"
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Mushroom Cultivation",
+    "instructor": "Fungi Fred",
+    "instructor_role": "Mycologist",
+    "instructor_image": "/Images/workshops/fungi_fred.jpg",
+    "date": "2026-07-09",
+    "time": "09:00 AM - 01:00 PM",
+    "duration": "4 hours",
+    "location": "Urban Farm",
+    "image": "/Images/workshops/mushroom_cultivation.jpg",
+    "description": "Grow gourmet mushrooms at home.",
+    "detailed_description": "Demystify the art of growing mushrooms. Learn low-tech methods for cultivating oyster mushrooms on coffee grounds, straw, and logs. We'll cover sterile technique, spawn production, and fruiting conditions.",
+    "category": "Gardening",
+    "price": "Rs 2800",
+    "spots_left": 12,
+    "level": "Intermediate",
+    "learning_outcomes": [
+      "Mushroom life cycle",
+      "Substrate preparation",
+      "Inoculation techniques",
+      "Harvesting and storage"
+    ],
+    "requirements": [
+      "None"
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Furniture Restoration",
+    "instructor": "Woody Wood",
+    "instructor_role": "Carpenter",
+    "instructor_image": "/Images/workshops/woody_wood.png",
+    "date": "2026-07-16",
+    "time": "09:00 AM - 04:00 PM",
+    "duration": "7 hours",
+    "location": "Woodshop",
+    "image": "/Images/workshops/furniture_restoration.jpg",
+    "description": "Repair and refinish wooden furniture.",
+    "detailed_description": "Bring your tired furniture back to life. Learn how to strip old finish, repair scratches and dents, stain, and seal wood. We'll also cover basic upholstery techniques for chair seats.",
+    "category": "DIY",
+    "price": "Rs 3500",
+    "spots_left": 8,
+    "level": "Intermediate",
+    "learning_outcomes": [
+      "Stripping and sanding",
+      "Wood repairs",
+      "Staining and finishing",
+      "Basic upholstery"
+    ],
+    "requirements": [
+      "Small piece of furniture to work on"
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Solar Cooking",
+    "instructor": "Sunny Ray",
+    "instructor_role": "Solar Enthusiast",
+    "instructor_image": "/Images/workshops/sunny_ray.png",
+    "date": "2026-07-23",
+    "time": "11:00 AM - 02:00 PM",
+    "duration": "3 hours",
+    "location": "City Park",
+    "image": "/Images/workshops/solar_cooking.jpg",
+    "description": "Build and use a solar oven.",
+    "detailed_description": "Harness the power of the sun to cook delicious meals. We'll build simple box cookers and panel cookers using recycled materials. Then, we'll put them to the test by cooking a communal lunch!",
+    "category": "Sustainability",
+    "price": "Rs 1500",
+    "spots_left": 20,
+    "level": "Beginner",
+    "learning_outcomes": [
+      "Principles of solar thermal energy",
+      "Building a solar cooker",
+      "Cooking techniques and recipes",
+      "Safety precautions"
+    ],
+    "requirements": [
+      "Sunglasses"
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Herbal Medicine",
+    "instructor": "Sage Herb",
+    "instructor_role": "Herbalist",
+    "instructor_image": "/Images/workshops/sage_herb.png",
+    "date": "2026-07-30",
+    "time": "10:00 AM - 02:00 PM",
+    "duration": "4 hours",
+    "location": "Herb Garden",
+    "image": "/Images/workshops/herbal_medicine.jpg",
+    "description": "Basic home remedies using common herbs.",
+    "detailed_description": "Empower yourself with natural healing. Learn to identify, harvest, and process medicinal herbs. We'll make herbal teas, tinctures, salves, and syrups for common ailments like colds, stress, and skin issues.",
+    "category": "Gardening",
+    "price": "Rs 2500",
+    "spots_left": 12,
+    "level": "Beginner",
+    "learning_outcomes": [
+      "Plant identification",
+      "Making herbal preparations",
+      "Safety and dosage",
+      "Creating a home apothecary"
+    ],
+    "requirements": [
+      "Small jars"
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Paper Making",
+    "instructor": "Page Turner",
+    "instructor_role": "Artist",
+    "instructor_image": "/Images/workshops/page_turner.webp",
+    "date": "2026-08-06",
+    "time": "01:00 PM - 04:00 PM",
+    "duration": "3 hours",
+    "location": "Art Studio",
+    "image": "/Images/workshops/paper_making.png",
+    "description": "Recycle waste paper into beautiful handmade sheets.",
+    "detailed_description": "Turn your junk mail and office scraps into unique, handmade paper. Learn the process of pulping, molding, and couching. We'll experiment with adding botanicals, seeds, and dyes to create textured and colorful papers.",
+    "category": "DIY",
+    "price": "Rs 1800",
+    "spots_left": 15,
+    "level": "Beginner",
+    "learning_outcomes": [
+      "Paper recycling process",
+      "Using a mold and deckle",
+      "Decorative techniques",
+      "Drying and pressing"
+    ],
+    "requirements": [
+      "Old paper scraps"
+    ]
+  }
+]
