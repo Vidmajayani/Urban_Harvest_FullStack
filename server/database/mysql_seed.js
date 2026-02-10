@@ -497,5 +497,9 @@ async function seedDatabase() {
     }
 }
 
-// Run the seeding
-seedDatabase();
+// Run the seeding if executed directly
+if (require.main === module) {
+    seedDatabase();
+}
+
+module.exports = { seedDatabase };

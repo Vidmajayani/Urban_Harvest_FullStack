@@ -28,7 +28,7 @@ const heroSlidesRoutes = require('./routes/hero-slides');
 const subscriptionBoxesRoutes = require('./routes/subscription-boxes');
 const subscriptionsRoutes = require('./routes/subscriptions');
 const subscriptionReviewsRoutes = require('./routes/subscription-reviews');
-const favoritesRoutes = require('./routes/favorites'); 
+const favoritesRoutes = require('./routes/favorites');
 const notificationsRoutes = require('./routes/notifications');
 const cartRoutes = require('./routes/cart');
 const { initializeSchema } = require('./database/init-db');
@@ -175,6 +175,20 @@ app.get('/api/health', (req, res) => {
         message: 'Urban Harvest Hub API is running',
         timestamp: new Date().toISOString()
     });
+});
+
+// Database Seeding Endpoint (Temporary)
+const { seedDatabase } = require('./database/mysql_seed');
+const { initializeSchema } = require('./database/init-db');
+
+app.get('/api/seed', async (req, res) => {
+    try {
+        await initializeSchema();
+        await seedDatabase();
+        res.json({ message: 'Database seeded successfully!' });
+    } catch (error) {
+        res.status(500).json({ error: 'Seeding failed', details: error.message });
+    }
 });
 
 // Root endpoint
