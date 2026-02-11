@@ -247,7 +247,7 @@ function WorkshopDetails() {
                 <div className="w-16 h-16 fold:w-20 fold:h-20 sm:w-24 sm:h-24 rounded-full overflow-hidden border-4 border-white dark:border-gray-600 shadow-md shrink-0 bg-gray-200 dark:bg-gray-700 flex items-center justify-center">
                   {workshop.instructor_image ? (
                     <img
-                      src={getImageUrl(workshop.instructor_image)}
+                      src={workshop.instructor_image}
                       alt={workshop.instructor_name}
                       className="w-full h-full object-cover"
                       onError={(e) => {

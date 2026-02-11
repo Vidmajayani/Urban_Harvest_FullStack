@@ -63,7 +63,7 @@ function WorkshopCard({ item }) {
             <div className="w-5 h-5 fold:w-6 fold:h-6 rounded-full overflow-hidden border border-gray-200 dark:border-gray-600 flex-shrink-0 bg-gray-200 dark:bg-gray-700 flex items-center justify-center relative">
               {item.instructor_image ? (
                 <img
-                  src={getImageUrl(item.instructor_image)}
+                  src={item.instructor_image}
                   alt={item.instructor}
                   className="w-full h-full object-cover"
                   onError={(e) => {

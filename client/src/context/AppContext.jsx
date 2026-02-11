@@ -102,7 +102,7 @@ export const AppProvider = ({ children }) => {
                     price: w.price === 0 ? 'Free' : `Rs ${w.price}`,
                     // Map instructor name and image
                     instructor: w.instructor_name || 'TBA',
-                    instructor_image: getImageUrl(w.instructor_image) || '/Images/default-instructor.jpg',
+                    instructor_image: w.instructor_image || '/Images/default-instructor.jpg',
                     // Use level
                     level: w.level || 'Beginner',
                     // Map spots_left
