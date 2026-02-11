@@ -2,6 +2,8 @@ import { Link } from "react-router-dom";
 import { FaStar, FaBox, FaArrowRight } from "react-icons/fa";
 import FavoriteButton from "./FavoriteButton";
 
+import { getImageUrl } from "../utils/imageUtils";
+
 function SubscriptionBoxCard({ item }) {
     // Get frequency badge color (solid backgrounds for visibility)
     const getFrequencyBadgeColor = (frequency) => {
@@ -28,7 +30,7 @@ function SubscriptionBoxCard({ item }) {
 
                 {item.image_url ? (
                     <img
-                        src={item.image_url}
+                        src={getImageUrl(item.image_url)}
                         alt={item.name}
                         className="w-full h-full object-cover"
                     />

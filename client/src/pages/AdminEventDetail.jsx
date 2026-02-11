@@ -7,6 +7,7 @@ import ConfirmDialog from '../components/ConfirmDialog';
 import Notification from '../components/Notification';
 import BookingsList from '../components/BookingsList';
 import AdminReviewsList from '../components/AdminReviewsList';
+import { getImageUrl } from '../utils/imageUtils';
 
 function AdminEventDetail() {
     const { id } = useParams();
@@ -130,7 +131,7 @@ function AdminEventDetail() {
             <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-2xl shadow-2xl overflow-hidden border border-white/20 dark:border-gray-700/50 animate-fade-in-up" style={{ animationDelay: '0.1s' }}>
                 {/* Hero Image Section - OPTIMIZED SIZE */}
                 <div className="relative h-[250px] fold:h-[280px] sm:h-[350px] overflow-hidden rounded-xl">
-                    <img src={event.image} alt={event.title} className="w-full h-full object-contain bg-gray-100 dark:bg-gray-800" />
+                    <img src={getImageUrl(event.image)} alt={event.title} className="absolute inset-0 w-full h-full object-contain" />
                     {/* Gradient Overlay */}
                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
 
@@ -201,7 +202,7 @@ function AdminEventDetail() {
                         </h3>
                         <div className="flex flex-col sm:flex-row items-center sm:items-start gap-4 text-center sm:text-left">
                             {event.organizer_image ? (
-                                <img src={event.organizer_image} alt={event.organizer_name} className="w-20 h-20 rounded-full object-cover border-4 border-orange-400 shadow-md" />
+                                <img src={getImageUrl(event.organizer_image)} alt={event.organizer_name} className="w-20 h-20 rounded-full object-cover border-4 border-orange-400 shadow-md" />
                             ) : (
                                 <div className="w-20 h-20 rounded-full bg-orange-200 dark:bg-orange-800 flex items-center justify-center shadow-md">
                                     <FaUser className="text-3xl text-orange-600 dark:text-orange-300" />

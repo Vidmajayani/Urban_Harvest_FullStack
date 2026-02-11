@@ -3,6 +3,8 @@ import { FaArrowRight, FaExclamationTriangle } from "react-icons/fa";
 import FavoriteButton from "./FavoriteButton";
 import { useAuth } from "../context/AuthContext";
 
+import { getImageUrl } from "../utils/imageUtils";
+
 function ProductCard({ item }) {
   const { isAdmin } = useAuth();
   const isOutOfStock = item.stock_quantity === 0;
@@ -34,7 +36,7 @@ function ProductCard({ item }) {
         </div>
 
         <img
-          src={item.image}
+          src={getImageUrl(item.image)}
           alt={item.name}
           className="w-full h-36 fold:h-40 sm:h-48 object-cover transition-transform duration-500 group-hover:scale-110"
         />

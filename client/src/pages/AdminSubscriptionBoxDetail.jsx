@@ -8,6 +8,7 @@ import AdminReviewsList from '../components/AdminReviewsList';
 import ImageUpload from '../components/ImageUpload';
 import { uploadImage, deleteImage } from '../utils/imageUpload';
 import axios from 'axios';
+import { getImageUrl } from '../utils/imageUtils';
 
 function AdminSubscriptionBoxDetail() {
     const { id } = useParams();
@@ -234,7 +235,7 @@ function AdminSubscriptionBoxDetail() {
                 <div className="relative h-[250px] fold:h-[280px] sm:h-[350px] overflow-hidden rounded-xl">
                     {box.image_url ? (
                         <img
-                            src={box.image_url}
+                            src={getImageUrl(box.image_url)}
                             alt={box.name}
                             className="w-full h-full object-contain bg-gray-100 dark:bg-gray-800"
                         />
@@ -389,7 +390,7 @@ function AdminSubscriptionBoxDetail() {
                                     <div className="w-10 h-10 rounded-full overflow-hidden flex-shrink-0 border-2 border-white dark:border-gray-700 shadow-sm ring-2 ring-blue-500/10">
                                         {subscriber.profile_image ? (
                                             <img
-                                                src={subscriber.profile_image}
+                                                src={getImageUrl(subscriber.profile_image)}
                                                 alt={subscriber.user_name}
                                                 className="w-full h-full object-cover"
                                             />

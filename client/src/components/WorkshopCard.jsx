@@ -3,6 +3,8 @@ import { FaCalendarAlt, FaMapMarkerAlt, FaChalkboardTeacher, FaArrowRight, FaClo
 import FavoriteButton from "./FavoriteButton";
 import { useAuth } from "../context/AuthContext";
 
+import { getImageUrl } from "../utils/imageUtils";
+
 function WorkshopCard({ item }) {
   const { isAdmin } = useAuth();
   // Database uses 'spots_left', fallback to 'available_spots' for compatibility
@@ -36,7 +38,7 @@ function WorkshopCard({ item }) {
         </div>
 
         <img
-          src={item.image}
+          src={getImageUrl(item.image)}
           alt={item.title}
           className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
         />
@@ -61,7 +63,7 @@ function WorkshopCard({ item }) {
             <div className="w-5 h-5 fold:w-6 fold:h-6 rounded-full overflow-hidden border border-gray-200 dark:border-gray-600 flex-shrink-0 bg-gray-200 dark:bg-gray-700 flex items-center justify-center relative">
               {item.instructor_image ? (
                 <img
-                  src={item.instructor_image}
+                  src={getImageUrl(item.instructor_image)}
                   alt={item.instructor}
                   className="w-full h-full object-cover"
                   onError={(e) => {

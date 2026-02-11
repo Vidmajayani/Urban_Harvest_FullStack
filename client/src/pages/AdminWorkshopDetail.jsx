@@ -7,6 +7,7 @@ import ConfirmDialog from '../components/ConfirmDialog';
 import Notification from '../components/Notification';
 import BookingsList from '../components/BookingsList';
 import AdminReviewsList from '../components/AdminReviewsList';
+import { getImageUrl } from '../utils/imageUtils';
 
 function AdminWorkshopDetail() {
     const { id } = useParams();
@@ -135,7 +136,7 @@ function AdminWorkshopDetail() {
                 {/* Hero Image Section - OPTIMIZED SIZE */}
                 <div className="relative h-[250px] fold:h-[280px] sm:h-[350px] overflow-hidden rounded-xl">
                     <img
-                        src={workshop.image}
+                        src={getImageUrl(workshop.image)}
                         alt={workshop.title}
                         className={`w-full h-full object-contain bg-gray-100 dark:bg-gray-800 ${isFullyBooked ? 'grayscale' : ''}`}
                     />
@@ -286,7 +287,7 @@ function AdminWorkshopDetail() {
                             </h3>
                             <div className="flex flex-col sm:flex-row items-center sm:items-start gap-4 text-center sm:text-left">
                                 {workshop.instructor_image ? (
-                                    <img src={workshop.instructor_image} alt={workshop.instructor_name} className="w-20 h-20 rounded-full object-cover border-4 border-yellow-400 shadow-md" />
+                                    <img src={getImageUrl(workshop.instructor_image)} alt={workshop.instructor_name} className="w-20 h-20 rounded-full object-cover border-4 border-yellow-400 shadow-md" />
                                 ) : (
                                     <div className="w-20 h-20 rounded-full bg-yellow-200 dark:bg-yellow-800 flex items-center justify-center shadow-md">
                                         <FaUser className="text-3xl text-yellow-600 dark:text-yellow-300" />

@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 import { FaCamera, FaSpinner } from 'react-icons/fa';
+import { getImageUrl } from '../utils/imageUtils';
 
 export default function ProfileImageUpload({ currentImage, onImageUpdate, userName }) {
     const [uploading, setUploading] = useState(false);
@@ -56,8 +57,9 @@ export default function ProfileImageUpload({ currentImage, onImageUpdate, userNa
                 return;
             }
 
+            const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
             const response = await axios.post(
-                'http://localhost:5000/api/upload/profile-image',
+                `${API_URL}/api/upload/profile-image`,
                 formData,
                 {
                     headers: {
@@ -105,7 +107,7 @@ export default function ProfileImageUpload({ currentImage, onImageUpdate, userNa
                 <div className="w-40 h-40 rounded-full overflow-hidden border-4 border-white dark:border-gray-800 shadow-xl relative bg-gray-200 dark:bg-gray-700 mx-auto">
                     {preview && !imageError ? (
                         <img
-                            src={preview}
+                            src={getImageUrl(preview)}
                             alt="Profile"
                             className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                             onError={() => setImageError(true)}

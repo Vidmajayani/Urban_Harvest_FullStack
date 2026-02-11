@@ -3,6 +3,8 @@ import { FaCalendarAlt, FaMapMarkerAlt, FaTicketAlt, FaArrowRight, FaExclamation
 import FavoriteButton from "./FavoriteButton";
 import { useAuth } from "../context/AuthContext";
 
+import { getImageUrl } from "../utils/imageUtils";
+
 function EventCard({ item }) {
   const { isAdmin } = useAuth();
   // Database uses 'spots_left', fallback to 'available_spots' for compatibility
@@ -36,7 +38,7 @@ function EventCard({ item }) {
         </div>
 
         <img
-          src={item.image}
+          src={getImageUrl(item.image)}
           alt={item.title}
           className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
         />

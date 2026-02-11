@@ -5,6 +5,7 @@ import { FaStar, FaCalendar, FaCheckCircle, FaClock, FaTimes, FaShieldAlt } from
 import { useAuth } from '../context/AuthContext';
 import { useNotification } from '../context/NotificationContext';
 import { Link } from 'react-router-dom';
+import { getImageUrl } from '../utils/imageUtils';
 
 function MyBookings({ isWidget = false, filterType = null }) {
     const { isAdmin } = useAuth();
@@ -128,7 +129,7 @@ function MyBookings({ isWidget = false, filterType = null }) {
                         {/* Display event or workshop image */}
                         {(booking.event_image || booking.workshop_image) ? (
                             <img
-                                src={`${import.meta.env.VITE_API_URL || 'http://localhost:5000'}${booking.event_image || booking.workshop_image}`}
+                                src={getImageUrl(booking.event_image || booking.workshop_image)}
                                 alt={booking.event_title || booking.workshop_title}
                                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                                 onError={(e) => {

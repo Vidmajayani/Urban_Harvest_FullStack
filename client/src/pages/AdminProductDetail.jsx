@@ -7,6 +7,7 @@ import ConfirmDialog from '../components/ConfirmDialog';
 import Notification from '../components/Notification';
 import ProductSalesList from '../components/ProductSalesList';
 import AdminReviewsList from '../components/AdminReviewsList';
+import { getImageUrl } from '../utils/imageUtils';
 
 function AdminProductDetail() {
     const { id } = useParams();
@@ -134,7 +135,7 @@ function AdminProductDetail() {
                 {/* Hero Image Section - OPTIMIZED SIZE */}
                 <div className="relative h-[250px] fold:h-[280px] sm:h-[350px] overflow-hidden rounded-xl">
                     <img
-                        src={product.image}
+                        src={getImageUrl(product.image)}
                         alt={product.name}
                         className={`w-full h-full object-contain bg-gray-100 dark:bg-gray-800 ${isOutOfStock ? 'grayscale' : ''}`}
                     />

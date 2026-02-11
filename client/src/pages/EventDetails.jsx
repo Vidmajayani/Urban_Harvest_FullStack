@@ -6,6 +6,7 @@ import BookingForm from "../components/BookingForm";
 import LoginPromptModal from "../components/LoginPromptModal";
 import ReviewsSection from "../components/ReviewsSection";
 import { FaCalendarAlt, FaMapMarkerAlt, FaClock, FaTicketAlt, FaStar, FaCheckCircle, FaInfoCircle, FaArrowLeft, FaSignInAlt } from "react-icons/fa";
+import { getImageUrl } from "../utils/imageUtils";
 
 function EventDetails() {
     const { id } = useParams();
@@ -151,7 +152,7 @@ function EventDetails() {
             {/* Hero Section */}
             <div className="relative h-[220px] fold:h-[280px] sm:h-[400px] md:h-[500px] rounded-xl fold:rounded-2xl sm:rounded-3xl overflow-hidden shadow-lg fold:shadow-xl sm:shadow-2xl mb-4 fold:mb-6 sm:mb-10 bg-gray-100 dark:bg-gray-800">
                 <img
-                    src={event.image}
+                    src={getImageUrl(event.image)}
                     alt={event.title}
                     className="absolute inset-0 w-full h-full object-contain"
                 />
@@ -272,7 +273,7 @@ function EventDetails() {
                         <div className="bg-gradient-to-r from-ecoGreen/10 to-transparent p-3 fold:p-4 sm:p-8 rounded-xl fold:rounded-2xl sm:rounded-3xl border border-ecoGreen/20 flex items-center gap-3 fold:gap-4 sm:gap-6">
                             {event.organizer_image && (
                                 <div className="w-12 h-12 fold:w-16 fold:h-16 sm:w-20 sm:h-20 rounded-full overflow-hidden border-2 border-white shadow-md shrink-0">
-                                    <img src={event.organizer_image} alt={event.organizer_name} className="w-full h-full object-cover" />
+                                    <img src={getImageUrl(event.organizer_image)} alt={event.organizer_name} className="w-full h-full object-cover" />
                                 </div>
                             )}
                             <div>

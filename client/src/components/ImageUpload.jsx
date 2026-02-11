@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { FaUpload, FaImage, FaTimes } from 'react-icons/fa';
+import { getImageUrl } from '../utils/imageUtils';
 
 function ImageUpload({ currentImage, onImageChange, onFileChange, label = "Image", type = "products" }) {
     const [preview, setPreview] = useState(currentImage || '');
@@ -8,44 +9,41 @@ function ImageUpload({ currentImage, onImageChange, onFileChange, label = "Image
 
     // Update preview when currentImage changes (for Edit forms)
     useEffect(() => {
-        if (currentImage && !selectedFile) {
-            setPreview(currentImage);
-        }
-    }, [currentImage, selectedFile]);
+        setPreview(currentImage || '');
+    }, [currentImage]);
 
-    const handleFileSelect = (e) => {
+    const handleFileChange = (e) => {
         const file = e.target.files[0];
-        if (!file) return;
+        if (file) {
+            // Validate file type
+            if (!file.type.startsWith('image/')) {
+                setError('Please select an image file');
+                return;
+            }
+            // Validate file size (max 5MB)
+            if (file.size > 5 * 1024 * 1024) {
+                setError('File size should be less than 5MB');
+                return;
+            }
 
-        // Validate file type
-        if (!file.type.startsWith('image/')) {
-            setError('Please select an image file');
-            return;
-        }
-
-        // Validate file size (5MB)
-        if (file.size > 5 * 1024 * 1024) {
-            setError('Image must be less than 5MB');
-            return;
-        }
-
-        setError('');
-
-        // Create preview using FileReader
-        const reader = new FileReader();
-        reader.onloadend = () => {
-            setPreview(reader.result); // Base64 preview
             setSelectedFile(file);
-            onFileChange?.(file); // Pass file to parent form
-        };
-        reader.readAsDataURL(file);
+            setError('');
+            onFileChange(file);
+
+            // Create preview
+            const reader = new FileReader();
+            reader.onloadend = () => {
+                setPreview(reader.result);
+            };
+            reader.readAsDataURL(file);
+        }
     };
 
     const handleRemove = () => {
         setPreview('');
         setSelectedFile(null);
-        onImageChange?.(''); // Clear image path in parent
-        onFileChange?.(null); // Clear file in parent
+        onFileChange(null);
+        onImageChange('');
     };
 
     return (
@@ -56,7 +54,7 @@ function ImageUpload({ currentImage, onImageChange, onFileChange, label = "Image
             {preview && (
                 <div className="relative inline-block">
                     <img
-                        src={preview}
+                        src={getImageUrl(preview)}
                         alt="Preview"
                         className="w-32 h-32 object-cover rounded-lg border-2 border-gray-300 dark:border-gray-600"
                     />

@@ -5,6 +5,7 @@ import { FaStar, FaBox, FaCheckCircle, FaClock, FaTimes, FaShieldAlt, FaShopping
 import { useAuth } from '../context/AuthContext';
 import { useNotification } from '../context/NotificationContext';
 import { Link } from 'react-router-dom';
+import { getImageUrl } from '../utils/imageUtils';
 
 function MyOrders({ isWidget = false }) {
     const { isAdmin } = useAuth();
@@ -130,7 +131,7 @@ function MyOrders({ isWidget = false }) {
                                 <div className="w-full h-48 sm:w-20 sm:h-20 flex-shrink-0 bg-gray-200 dark:bg-gray-600 rounded-lg overflow-hidden">
                                     {item.product_image ? (
                                         <img
-                                            src={`${import.meta.env.VITE_API_URL || 'http://localhost:5000'}${item.product_image}`}
+                                            src={getImageUrl(item.product_image)}
                                             alt={item.product_name}
                                             className="w-full h-full object-cover"
                                             onError={(e) => {
@@ -183,7 +184,7 @@ function MyOrders({ isWidget = false }) {
                                 <div className="w-full h-48 sm:w-20 sm:h-20 flex-shrink-0 bg-gray-200 dark:bg-gray-600 rounded-lg overflow-hidden border border-ecoGreen/30">
                                     {sub.box_image ? (
                                         <img
-                                            src={`${import.meta.env.VITE_API_URL || 'http://localhost:5000'}${sub.box_image}`}
+                                            src={getImageUrl(sub.box_image)}
                                             alt={sub.box_name}
                                             className="w-full h-full object-cover"
                                         />

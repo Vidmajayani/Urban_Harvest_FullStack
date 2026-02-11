@@ -4,6 +4,7 @@ import { subscriptionBoxesAPI } from '../services/api';
 import { FaTrash, FaPlus, FaTimes, FaEdit, FaSearch, FaEye, FaBox, FaChevronLeft, FaChevronRight, FaPlusCircle, FaMinusCircle, FaUpload, FaSave } from 'react-icons/fa';
 import ConfirmDialog from '../components/ConfirmDialog';
 import Notification from '../components/Notification';
+import { getImageUrl } from '../utils/imageUtils';
 import ImageUpload from '../components/ImageUpload';
 import { uploadImage, deleteImage } from '../utils/imageUpload';
 import axios from 'axios';
@@ -370,7 +371,7 @@ function ManageSubscriptionBoxes() {
                                                 <div className="flex items-center gap-3">
                                                     {box.image_url ? (
                                                         <img
-                                                            src={box.image_url}
+                                                            src={getImageUrl(box.image_url)}
                                                             alt={box.name}
                                                             className="w-12 h-12 rounded-lg object-cover"
                                                         />
@@ -438,7 +439,7 @@ function ManageSubscriptionBoxes() {
                                 <div className="flex items-start gap-3 p-4 border-b border-gray-200 dark:border-gray-700">
                                     {box.image_url ? (
                                         <img
-                                            src={box.image_url}
+                                            src={getImageUrl(box.image_url)}
                                             alt={box.name}
                                             className="w-20 h-20 rounded-lg object-cover flex-shrink-0"
                                         />

@@ -6,6 +6,7 @@ import BookingForm from "../components/BookingForm";
 import LoginPromptModal from "../components/LoginPromptModal";
 import ReviewsSection from "../components/ReviewsSection";
 import { FaCalendarAlt, FaMapMarkerAlt, FaClock, FaChalkboardTeacher, FaCheckCircle, FaArrowLeft, FaUserTie, FaInfoCircle, FaSignInAlt } from "react-icons/fa";
+import { getImageUrl } from "../utils/imageUtils";
 
 function WorkshopDetails() {
   const { id } = useParams();
@@ -135,7 +136,7 @@ function WorkshopDetails() {
           {/* Hero Section */}
           <div className="relative h-[220px] fold:h-[280px] sm:h-[400px] rounded-xl fold:rounded-2xl sm:rounded-3xl overflow-hidden shadow-lg fold:shadow-xl sm:shadow-2xl group">
             <img
-              src={workshop.image}
+              src={getImageUrl(workshop.image)}
               alt={workshop.title}
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
             />
@@ -246,7 +247,7 @@ function WorkshopDetails() {
                 <div className="w-16 h-16 fold:w-20 fold:h-20 sm:w-24 sm:h-24 rounded-full overflow-hidden border-4 border-white dark:border-gray-600 shadow-md shrink-0 bg-gray-200 dark:bg-gray-700 flex items-center justify-center">
                   {workshop.instructor_image ? (
                     <img
-                      src={workshop.instructor_image}
+                      src={getImageUrl(workshop.instructor_image)}
                       alt={workshop.instructor_name}
                       className="w-full h-full object-cover"
                       onError={(e) => {

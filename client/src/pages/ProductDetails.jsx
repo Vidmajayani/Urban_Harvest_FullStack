@@ -6,6 +6,7 @@ import { useCart } from "../context/CartContext";
 import { FaShoppingCart, FaHeart, FaShare, FaCheck, FaStar, FaMinus, FaPlus, FaGlobe, FaLeaf, FaTools, FaRuler, FaInfoCircle, FaRecycle, FaArrowLeft, FaCheckCircle } from "react-icons/fa";
 import ReviewsSection from "../components/ReviewsSection";
 import LoginPromptModal from "../components/LoginPromptModal";
+import { getImageUrl } from "../utils/imageUtils";
 
 function ProductDetails() {
   const { id } = useParams();
@@ -121,7 +122,7 @@ function ProductDetails() {
           {/* Left – Image */}
           <div className="h-full">
             <img
-              src={product.image}
+              src={getImageUrl(product.image)}
               alt={product.name}
               className="w-full h-[250px] fold:h-[300px] sm:h-[350px] md:h-[450px] lg:h-[550px] object-cover rounded-xl fold:rounded-2xl shadow-md"
             />

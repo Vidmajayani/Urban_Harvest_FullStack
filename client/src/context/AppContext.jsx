@@ -1,5 +1,6 @@
 import { createContext, useState, useEffect, useContext } from "react";
 import { productsAPI, eventsAPI, workshopsAPI, testimonialsAPI, heroSlidesAPI, subscriptionBoxesAPI } from "../services/api";
+import { getImageUrl } from "../utils/imageUtils";
 
 // Create Context object
 const AppContext = createContext();
@@ -57,7 +58,8 @@ export const AppProvider = ({ children }) => {
                 const productsData = (productsRes.data.products || []).map(p => ({
                     ...p,
                     id: p.product_id,
-                    category: p.category_name
+                    category: p.category_name,
+                    image: getImageUrl(p.image)
                 }));
 
                 // Transform Events data to match EventCard expectations
@@ -65,6 +67,7 @@ export const AppProvider = ({ children }) => {
                     ...e,
                     id: e.event_id,
                     category: e.category_name,
+                    image: getImageUrl(e.image),
                     // Format date from event_date
                     date: e.event_date ? new Date(e.event_date).toLocaleDateString('en-US', {
                         year: 'numeric',
@@ -86,6 +89,7 @@ export const AppProvider = ({ children }) => {
                     ...w,
                     id: w.workshop_id,
                     category: w.category_name,
+                    image: getImageUrl(w.image),
                     // Format date from workshop_date
                     date: w.workshop_date ? new Date(w.workshop_date).toLocaleDateString('en-US', {
                         year: 'numeric',
@@ -98,15 +102,16 @@ export const AppProvider = ({ children }) => {
                     price: w.price === 0 ? 'Free' : `Rs ${w.price}`,
                     // Map instructor name and image
                     instructor: w.instructor_name || 'TBA',
-                    instructor_image: w.instructor_image || '/Images/default-instructor.jpg',
+                    instructor_image: getImageUrl(w.instructor_image || '/Images/default-instructor.jpg'),
                     // Use level
                     level: w.level || 'Beginner',
                     // Map spots_left
                     spots_left: w.spots_left !== undefined ? w.spots_left : 0
                 }));
 
-                const testimonialsData = testimonialsRes.data || [];
-                const heroSlidesData = heroRes.data || [];
+                const testimonialsData = (testimonialsRes.data || []);
+
+                const heroSlidesData = (heroRes.data || []);
 
                 // Transform Subscription Boxes data
                 const subscriptionBoxesData = (subscriptionBoxesRes.data.boxes || []).map(box => ({
@@ -114,7 +119,8 @@ export const AppProvider = ({ children }) => {
                     id: box.box_id,
                     category: box.frequency, // Use frequency as category badge
                     price: box.price,
-                    rating: box.rating || 4.5
+                    rating: box.rating || 4.5,
+                    image: getImageUrl(box.image_url)
                 }));
 
                 setProducts(productsData);

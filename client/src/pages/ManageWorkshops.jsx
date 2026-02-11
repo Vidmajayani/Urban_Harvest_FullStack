@@ -7,6 +7,7 @@ import EditWorkshopForm from '../components/EditWorkshopForm';
 import ConfirmDialog from '../components/ConfirmDialog';
 import Notification from '../components/Notification';
 import WorkshopsAdvancedFilter from '../components/WorkshopsAdvancedFilter';
+import { getImageUrl } from '../utils/imageUtils';
 
 function ManageWorkshops() {
     const navigate = useNavigate();
@@ -391,7 +392,7 @@ function ManageWorkshops() {
                                         <tr key={workshop.workshop_id} className="hover:bg-gray-50 dark:hover:bg-gray-700/50 transition">
                                             <td className="px-6 py-4">
                                                 <div className="flex items-center gap-3">
-                                                    <img src={workshop.image} alt={workshop.title} className="w-12 h-12 rounded-lg object-cover" />
+                                                    <img src={getImageUrl(workshop.image)} alt={workshop.title} className="w-12 h-12 rounded-lg object-cover" />
                                                     <div>
                                                         <p className="font-semibold text-gray-800 dark:text-white">{workshop.title}</p>
                                                     </div>
@@ -423,7 +424,7 @@ function ManageWorkshops() {
                                             <td className="px-6 py-4">
                                                 <div className="flex items-center gap-2">
                                                     <button
-                                                        onClick={() => navigate(`/admin/workshops/${workshop.workshop_id}`)}
+                                                        onClick={() => navigate(`/ admin / workshops / ${workshop.workshop_id} `)}
                                                         className="p-2 text-yellow-600 hover:bg-yellow-50 dark:hover:bg-yellow-900/20 rounded-lg transition"
                                                         title="View details"
                                                     >
@@ -462,7 +463,7 @@ function ManageWorkshops() {
                                 {/* Card Header with Image and Title */}
                                 <div className="flex items-start gap-3 p-4 border-b border-gray-200 dark:border-gray-700">
                                     <img
-                                        src={workshop.image}
+                                        src={getImageUrl(workshop.image)}
                                         alt={workshop.title}
                                         className="w-20 h-20 rounded-lg object-cover flex-shrink-0"
                                     />
@@ -508,7 +509,7 @@ function ManageWorkshops() {
                                 {/* Card Footer with Actions */}
                                 <div className="flex items-center justify-end gap-2 p-4 bg-gray-50 dark:bg-gray-700/50 border-t border-gray-200 dark:border-gray-700">
                                     <button
-                                        onClick={() => navigate(`/admin/workshops/${workshop.workshop_id}`)}
+                                        onClick={() => navigate(`/ admin / workshops / ${workshop.workshop_id} `)}
                                         className="p-2 text-yellow-600 hover:bg-yellow-50 dark:hover:bg-yellow-900/20 rounded-lg transition"
                                         title="View details"
                                     >
@@ -540,10 +541,10 @@ function ManageWorkshops() {
                             <button
                                 onClick={() => setCurrentPage(prev => Math.max(prev - 1, 1))}
                                 disabled={currentPage === 1}
-                                className={`px-3 py-2 rounded-lg transition ${currentPage === 1
-                                    ? 'bg-gray-200 text-gray-400 cursor-not-allowed dark:bg-gray-700'
-                                    : 'bg-yellow-500 text-white hover:bg-yellow-600'
-                                    }`}
+                                className={`px - 3 py - 2 rounded - lg transition ${currentPage === 1
+                                        ? 'bg-gray-200 text-gray-400 cursor-not-allowed dark:bg-gray-700'
+                                        : 'bg-yellow-500 text-white hover:bg-yellow-600'
+                                    } `}
                             >
                                 ‹
                             </button>
@@ -555,10 +556,10 @@ function ManageWorkshops() {
                                     <button
                                         key={pageNum}
                                         onClick={() => setCurrentPage(pageNum)}
-                                        className={`px-4 py-2 rounded-lg transition ${currentPage === pageNum
-                                            ? 'bg-yellow-500 text-white'
-                                            : 'bg-gray-200 text-gray-700 hover:bg-gray-300 dark:bg-gray-700 dark:text-gray-300 dark:hover:bg-gray-600'
-                                            }`}
+                                        className={`px - 4 py - 2 rounded - lg transition ${currentPage === pageNum
+                                                ? 'bg-yellow-500 text-white'
+                                                : 'bg-gray-200 text-gray-700 hover:bg-gray-300 dark:bg-gray-700 dark:text-gray-300 dark:hover:bg-gray-600'
+                                            } `}
                                     >
                                         {pageNum}
                                     </button>
@@ -569,10 +570,10 @@ function ManageWorkshops() {
                             <button
                                 onClick={() => setCurrentPage(prev => Math.min(prev + 1, totalPages))}
                                 disabled={currentPage === totalPages}
-                                className={`px-3 py-2 rounded-lg transition ${currentPage === totalPages
-                                    ? 'bg-gray-200 text-gray-400 cursor-not-allowed dark:bg-gray-700'
-                                    : 'bg-yellow-500 text-white hover:bg-yellow-600'
-                                    }`}
+                                className={`px - 3 py - 2 rounded - lg transition ${currentPage === totalPages
+                                        ? 'bg-gray-200 text-gray-400 cursor-not-allowed dark:bg-gray-700'
+                                        : 'bg-yellow-500 text-white hover:bg-yellow-600'
+                                    } `}
                             >
                                 ›
                             </button>
@@ -585,7 +586,7 @@ function ManageWorkshops() {
             <ConfirmDialog
                 isOpen={deleteConfirm.isOpen}
                 title="Delete Workshop"
-                message={`Are you sure you want to delete "${deleteConfirm.workshopTitle}"? This action cannot be undone.`}
+                message={`Are you sure you want to delete "${deleteConfirm.workshopTitle}" ? This action cannot be undone.`}
                 onConfirm={handleDelete}
                 onClose={() => setDeleteConfirm({ isOpen: false, workshopId: null, workshopTitle: '' })}
                 confirmText="Delete"

@@ -7,6 +7,7 @@ import EditProductForm from '../components/EditProductForm';
 import ConfirmDialog from '../components/ConfirmDialog';
 import Notification from '../components/Notification';
 import ProductsAdvancedFilter from '../components/ProductsAdvancedFilter';
+import { getImageUrl } from '../utils/imageUtils';
 
 function ManageProducts() {
     const navigate = useNavigate();
@@ -301,7 +302,7 @@ function ManageProducts() {
                                                 <td className="px-6 py-4">
                                                     <div className="flex items-center gap-3">
                                                         <img
-                                                            src={product.image}
+                                                            src={getImageUrl(product.image)}
                                                             alt={product.name}
                                                             className={`w-12 h-12 rounded-lg object-cover ${isOutOfStock ? 'grayscale' : ''}`}
                                                         />
@@ -402,7 +403,7 @@ function ManageProducts() {
                                     {/* Card Header with Image and Title */}
                                     <div className="flex items-start gap-3 p-4 border-b border-gray-200 dark:border-gray-700">
                                         <img
-                                            src={product.image}
+                                            src={getImageUrl(product.image)}
                                             alt={product.name}
                                             className={`w-20 h-20 rounded-lg object-cover flex-shrink-0 ${isOutOfStock ? 'grayscale' : ''}`}
                                         />
