@@ -8,7 +8,7 @@ import App from "./App.jsx";
 import "./index.css"; // Tailwind CSS imports
 import { registerSW } from 'virtual:pwa-register';
 
-// Register Service Worker manually for better control
+// Register Service Worker
 const updateSW = registerSW({
   onNeedRefresh() {
     if (confirm('New content available. Reload?')) {
@@ -17,9 +17,6 @@ const updateSW = registerSW({
   },
   onOfflineReady() {
     console.log('✅ App is ready for offline use');
-  },
-  onRegisterError(error) {
-    console.error('❌ Service Worker registration error:', error);
   }
 });
 

@@ -12,14 +12,13 @@ export default defineConfig({
       filename: 'service-worker.js',
       registerType: 'autoUpdate',
       injectRegister: null, // We are handling registration manually in main.jsx
-      includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'mask-icon.svg'],
+      includeAssets: ['Images/logo.png'], // Only include assets that definitely exist
 
       // Enable dev mode for testing
       devOptions: {
         enabled: true,
         type: 'module',
-        navigateFallback: 'index.html',
-        /* swSrc: 'src/service-worker.js' */
+        navigateFallback: 'index.html'
       },
 
       manifest: {
