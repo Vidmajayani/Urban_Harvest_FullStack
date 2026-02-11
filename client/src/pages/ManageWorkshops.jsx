@@ -424,7 +424,7 @@ function ManageWorkshops() {
                                             <td className="px-6 py-4">
                                                 <div className="flex items-center gap-2">
                                                     <button
-                                                        onClick={() => navigate(`/ admin / workshops / ${workshop.workshop_id} `)}
+                                                        onClick={() => navigate(`/admin/workshops/${workshop.workshop_id}`)}
                                                         className="p-2 text-yellow-600 hover:bg-yellow-50 dark:hover:bg-yellow-900/20 rounded-lg transition"
                                                         title="View details"
                                                     >
@@ -509,7 +509,7 @@ function ManageWorkshops() {
                                 {/* Card Footer with Actions */}
                                 <div className="flex items-center justify-end gap-2 p-4 bg-gray-50 dark:bg-gray-700/50 border-t border-gray-200 dark:border-gray-700">
                                     <button
-                                        onClick={() => navigate(`/ admin / workshops / ${workshop.workshop_id} `)}
+                                        onClick={() => navigate(`/admin/workshops/${workshop.workshop_id}`)}
                                         className="p-2 text-yellow-600 hover:bg-yellow-50 dark:hover:bg-yellow-900/20 rounded-lg transition"
                                         title="View details"
                                     >
@@ -541,10 +541,10 @@ function ManageWorkshops() {
                             <button
                                 onClick={() => setCurrentPage(prev => Math.max(prev - 1, 1))}
                                 disabled={currentPage === 1}
-                                className={`px - 3 py - 2 rounded - lg transition ${currentPage === 1
-                                        ? 'bg-gray-200 text-gray-400 cursor-not-allowed dark:bg-gray-700'
-                                        : 'bg-yellow-500 text-white hover:bg-yellow-600'
-                                    } `}
+                                className={`px-3 py-2 rounded-lg transition ${currentPage === 1
+                                    ? 'bg-gray-200 text-gray-400 cursor-not-allowed dark:bg-gray-700'
+                                    : 'bg-yellow-500 text-white hover:bg-yellow-600'
+                                    }`}
                             >
                                 ‹
                             </button>
@@ -556,10 +556,10 @@ function ManageWorkshops() {
                                     <button
                                         key={pageNum}
                                         onClick={() => setCurrentPage(pageNum)}
-                                        className={`px - 4 py - 2 rounded - lg transition ${currentPage === pageNum
-                                                ? 'bg-yellow-500 text-white'
-                                                : 'bg-gray-200 text-gray-700 hover:bg-gray-300 dark:bg-gray-700 dark:text-gray-300 dark:hover:bg-gray-600'
-                                            } `}
+                                        className={`px-4 py-2 rounded-lg transition ${currentPage === pageNum
+                                            ? 'bg-yellow-500 text-white'
+                                            : 'bg-gray-200 text-gray-700 hover:bg-gray-300 dark:bg-gray-700 dark:text-gray-300 dark:hover:bg-gray-600'
+                                            }`}
                                     >
                                         {pageNum}
                                     </button>
@@ -570,10 +570,10 @@ function ManageWorkshops() {
                             <button
                                 onClick={() => setCurrentPage(prev => Math.min(prev + 1, totalPages))}
                                 disabled={currentPage === totalPages}
-                                className={`px - 3 py - 2 rounded - lg transition ${currentPage === totalPages
-                                        ? 'bg-gray-200 text-gray-400 cursor-not-allowed dark:bg-gray-700'
-                                        : 'bg-yellow-500 text-white hover:bg-yellow-600'
-                                    } `}
+                                className={`px-3 py-2 rounded-lg transition ${currentPage === totalPages
+                                    ? 'bg-gray-200 text-gray-400 cursor-not-allowed dark:bg-gray-700'
+                                    : 'bg-yellow-500 text-white hover:bg-yellow-600'
+                                    }`}
                             >
                                 ›
                             </button>
