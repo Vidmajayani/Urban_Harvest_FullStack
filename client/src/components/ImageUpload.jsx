@@ -81,7 +81,7 @@ function ImageUpload({ currentImage, onImageChange, onFileChange, label = "Image
                     <input
                         type="file"
                         accept="image/*"
-                        onChange={handleFileSelect}
+                        onChange={handleFileChange}
                         className="hidden"
                     />
                 </label>
