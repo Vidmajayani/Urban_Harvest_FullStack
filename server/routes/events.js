@@ -73,7 +73,7 @@ router.get('/:id', async (req, res) => {
 
         // Get reviews
         event.reviews = await getAll(`
-            SELECT er.*, u.name as user_name
+            SELECT er.*, u.name as user_name, u.profile_image
             FROM event_reviews er
             JOIN users u ON er.user_id = u.user_id
             WHERE er.event_id = ?

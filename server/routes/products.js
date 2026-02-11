@@ -57,7 +57,7 @@ router.get('/:id', async (req, res) => {
 
         // Get reviews
         product.reviews = await getAll(`
-            SELECT pr.*, u.name as user_name
+            SELECT pr.*, u.name as user_name, u.profile_image
             FROM product_reviews pr
             JOIN users u ON pr.user_id = u.user_id
             WHERE pr.product_id = ?
