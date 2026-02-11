@@ -360,7 +360,7 @@ function AdminWorkshopDetail() {
             {workshop.reviews && (
                 <div className="bg-white dark:bg-gray-800 rounded-2xl p-6 shadow-lg mb-6">
                     <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
-                        Reviews ({workshop.total_reviews || 0}){workshop.average_rating > 0 && ` - Average: ${workshop.average_rating}⭐`}
+                        Reviews ({workshop.total_reviews || 0}){workshop.average_rating > 0 && ` - Average: ${Number(workshop.average_rating).toFixed(1)}⭐`}
                     </h2>
                     <AdminReviewsList
                         reviews={workshop.reviews}

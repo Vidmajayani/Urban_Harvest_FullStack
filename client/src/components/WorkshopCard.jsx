@@ -102,7 +102,7 @@ function WorkshopCard({ item }) {
           </div>
           <span className="text-[10px] fold:text-xs text-gray-600 dark:text-gray-400 font-medium">
             {item.total_reviews > 0
-              ? `${item.average_rating.toFixed(1)} (${item.total_reviews})`
+              ? `${Number(item.average_rating || 0).toFixed(1)} (${item.total_reviews})`
               : 'No reviews yet'
             }
           </span>

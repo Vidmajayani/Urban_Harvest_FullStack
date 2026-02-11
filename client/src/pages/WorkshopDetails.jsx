@@ -175,7 +175,7 @@ function WorkshopDetails() {
                 </div>
                 <span className="text-white text-sm fold:text-base sm:text-lg font-semibold">
                   {workshop.total_reviews > 0
-                    ? `${workshop.average_rating.toFixed(1)} (${workshop.total_reviews} ${workshop.total_reviews === 1 ? 'review' : 'reviews'})`
+                    ? `${Number(workshop.average_rating || 0).toFixed(1)} (${workshop.total_reviews} ${workshop.total_reviews === 1 ? 'review' : 'reviews'})`
                     : 'No reviews yet'
                   }
                 </span>
