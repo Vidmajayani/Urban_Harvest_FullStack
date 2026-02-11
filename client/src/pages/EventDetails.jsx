@@ -273,7 +273,7 @@ function EventDetails() {
                         <div className="bg-gradient-to-r from-ecoGreen/10 to-transparent p-3 fold:p-4 sm:p-8 rounded-xl fold:rounded-2xl sm:rounded-3xl border border-ecoGreen/20 flex items-center gap-3 fold:gap-4 sm:gap-6">
                             {event.organizer_image && (
                                 <div className="w-12 h-12 fold:w-16 fold:h-16 sm:w-20 sm:h-20 rounded-full overflow-hidden border-2 border-white shadow-md shrink-0">
-                                    <img src={`/Images/events/${event.organizer_image}`} alt={event.organizer_name} className="w-full h-full object-cover" />
+                                    <img src={getImageUrl(event.organizer_image)} alt={event.organizer_name} className="w-full h-full object-cover" />
                                 </div>
                             )}
                             <div>

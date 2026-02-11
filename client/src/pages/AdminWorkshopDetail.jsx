@@ -287,7 +287,7 @@ function AdminWorkshopDetail() {
                             </h3>
                             <div className="flex flex-col sm:flex-row items-center sm:items-start gap-4 text-center sm:text-left">
                                 {workshop.instructor_image ? (
-                                    <img src={`/Images/workshops/${workshop.instructor_image}`} alt={workshop.instructor_name} className="w-20 h-20 rounded-full object-cover border-4 border-yellow-400 shadow-md" />
+                                    <img src={getImageUrl(workshop.instructor_image)} alt={workshop.instructor_name} className="w-20 h-20 rounded-full object-cover border-4 border-yellow-400 shadow-md" />
                                 ) : (
                                     <div className="w-20 h-20 rounded-full bg-yellow-200 dark:bg-yellow-800 flex items-center justify-center shadow-md">
                                         <FaUser className="text-3xl text-yellow-600 dark:text-yellow-300" />

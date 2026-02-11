@@ -40,7 +40,7 @@ function Workshops() {
           price: workshop.price === 0 ? 'Free' : `Rs ${workshop.price}`,
           // Use instructor data
           instructor: workshop.instructor_name,
-          instructorImage: workshop.instructor_image,
+          instructor_image: workshop.instructor_image,
           // Use skill_level
           level: workshop.skill_level || 'BEGINNER'
         }));
