@@ -233,9 +233,8 @@ function MyBookings({ isWidget = false, filterType = null }) {
 
                 {showReviewModal && selectedBooking && (
                     <ReviewModal
-                        type={selectedBooking.booking_type}
-                        itemId={selectedBooking.booking_type === 'event' ? selectedBooking.event_id : selectedBooking.workshop_id}
-                        itemName={selectedBooking.title || `${selectedBooking.booking_type}`}
+                        isOpen={showReviewModal}
+                        productName={selectedBooking.event_title || selectedBooking.workshop_title || `${selectedBooking.booking_type}`}
                         onClose={() => setShowReviewModal(false)}
                         onSubmit={handleReviewSubmit}
                     />
@@ -259,9 +258,8 @@ function MyBookings({ isWidget = false, filterType = null }) {
 
                 {showReviewModal && selectedBooking && (
                     <ReviewModal
-                        type={selectedBooking.booking_type}
-                        itemId={selectedBooking.booking_type === 'event' ? selectedBooking.event_id : selectedBooking.workshop_id}
-                        itemName={selectedBooking.title || `${selectedBooking.booking_type}`}
+                        isOpen={showReviewModal}
+                        productName={selectedBooking.event_title || selectedBooking.workshop_title || `${selectedBooking.booking_type}`}
                         onClose={() => setShowReviewModal(false)}
                         onSubmit={handleReviewSubmit}
                     />
