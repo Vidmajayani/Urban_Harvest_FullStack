@@ -7,9 +7,12 @@ export default defineConfig({
   plugins: [
     react(),
     VitePWA({
+      strategies: 'injectManifest',
+      srcDir: 'src',
+      filename: 'service-worker.js',
       registerType: 'autoUpdate',
+      injectRegister: 'auto',
       includeAssets: ['Images/logo.png'],
-      includeAssets: ['Images/logo.png'], // Only include assets that definitely exist
 
       // Enable dev mode for testing
       devOptions: {
