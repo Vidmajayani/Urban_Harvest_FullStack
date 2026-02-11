@@ -428,7 +428,7 @@ function AdminSubscriptionBoxDetail() {
             {/* Reviews Section */}
             <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-2xl shadow-2xl p-6 mb-6 border border-white/20 dark:border-gray-700/50 animate-fade-in-up" style={{ animationDelay: '0.3s' }}>
                 <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
-                    Customer Reviews ({box.total_reviews || 0}){box.average_rating > 0 && ` - Average: ${box.average_rating}⭐`}
+                    Customer Reviews ({box.total_reviews || 0}){box.average_rating > 0 && ` - Average: ${Number(box.average_rating).toFixed(1)}⭐`}
                 </h2>
                 {box.reviews && box.reviews.length > 0 ? (
                     <AdminReviewsList

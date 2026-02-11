@@ -302,7 +302,7 @@ function AdminProductDetail() {
             {product.reviews && (
                 <div className="bg-white dark:bg-gray-800 rounded-2xl p-6 shadow-lg mb-6">
                     <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
-                        Customer Reviews ({product.total_reviews}){product.average_rating > 0 && ` - Average: ${product.average_rating}⭐`}
+                        Customer Reviews ({product.total_reviews}){product.average_rating > 0 && ` - Average: ${Number(product.average_rating).toFixed(1)}⭐`}
                     </h2>
                     <AdminReviewsList
                         reviews={product.reviews}

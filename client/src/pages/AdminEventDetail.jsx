@@ -357,7 +357,7 @@ function AdminEventDetail() {
             {event.reviews && (
                 <div className="bg-white dark:bg-gray-800 rounded-2xl p-6 shadow-lg mb-6">
                     <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
-                        Reviews ({event.total_reviews || 0}){event.average_rating > 0 && ` - Average: ${event.average_rating}⭐`}
+                        Reviews ({event.total_reviews || 0}){event.average_rating > 0 && ` - Average: ${Number(event.average_rating).toFixed(1)}⭐`}
                     </h2>
                     <AdminReviewsList
                         reviews={event.reviews}
